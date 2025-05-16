@@ -1,0 +1,15 @@
+{
+	"filesize_unit": "bytes",
+	"dump.dmp": 1379222,
+	"procstats.csv": 13349,
+	"info.json": 6760,
+	"stacktrace_crash.csv": 1834,
+	"s.1.0.cod24.b0": 0,
+	"s.1.0.cod24.txt0": 17835,
+	"s.1.0.cod24.b1": 0,
+	"s.1.0.cod24.txt1": 17835,
+	"s.1.0.cod24.txt": 0,
+	"s.1.0.cod24.m": 2,
+	"bootlog.txt": 1178,
+	"dxdiag_oncrash.txt": 136341
+}
