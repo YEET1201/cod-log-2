@@ -1,0 +1,1680 @@
+hr              [887a0005]: The GPU device instance has been suspended. Use GetDeviceRemovedReason to determine the appropriate action. 
+hrRemovedReason [00000000]: The operation completed successfully. 
+GPU desc: NVIDIA GeForce RTX 3070
+Driver version: 560.94
+Video Memory Info:
+	Budget: 6333 MB
+	Budget (unscaled): 7036 MB
+	Used: 5369 MB
+	Used (High watermark): 6896 MB
+	Available: 964 MB
+	Deficit: 0 MB
+System Video Memory Info:
+	Budget: 15522 MB
+	Budget (unscaled): 15522 MB
+	Used: 522 MB
+	Used (High watermark): 559 MB
+	Available: 14999 MB
+	Deficit: 0 MB
+--- Begin Breadcrumbs Report ---
+CommandQueue [Address]: last known fence value
+	CommandList [Address]: execution fence value
+		[status]: description
+
+Possible status are:
+		 \ : fence information shows the command has finished execution
+		   : fence information shows the command is not yet being processed
+		<!>: command is still executing
+		 >>: command finished execution
+		 + : marker was seen by the GPU
+		 - : marker does not carry GPU information
+		 ? : status is unknown
+Command Queue #x0ed261b159d41113a [0000023812bd26a0]: last known fence 958584
+	Fence [0000023803c0abc0]:
+		[ \ ]: Wait: 201152 on '#x05225bd77a61f971c' (last known value = 201153)
+	Fence [0000023803c08210]:
+		[ \ ]: Wait: 0 on '#x0bf903911984eee4' (last known value = 26763)
+	Fence [0000023803c06550]:
+		[ >>]: Wait: 195671 on '#x05b5d83f2cb9f8c26' (last known value = 195671)
+	Command List #x0ed261b159d41113a [0000023812f1bb30]: end at fence 958584
+		[ \ ]: Begin Commandlist 
+		[ \ ]: 
+		[ \ ]: BeginTask: #x0ac539f09ffce0943 (index=951; def=82)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x01280571585d9a4ee (index=952; def=61)
+		[ \ ]: CopyBufferRegion: #x476129b4ecfd51d76
+		[ \ ]: CopyBufferRegion: #x41b57fda384d3f797
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x0e64d21c51d37d3b8 (index=953; def=138)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x0192dd044f53f7ed8 (index=954; def=139)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x016e8499b022a7000 (index=955; def=140)
+		[ \ ]: Dispatch: #x42c03870da6ed4ba (count: 1)
+		[ \ ]: BeginTask: #x0c96f6a256a64942e (index=956; def=150)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x01cd9a5969bdff0a2 (index=957; def=152)
+		[ \ ]: Dispatch: #x465657369bdc0704 (count: 1)
+		[ \ ]: BeginTask: #x0246e3535bc632039 (index=958; def=153)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x0eea4ce051e64d6b6 (index=959; def=137)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x08d8438f83c23d3a3 (index=960; def=156)
+		[ \ ]: Dispatch: #x465657369bdc0704 (count: 1)
+		[ \ ]: BeginTask: #x01f4f43cc9347dbac (index=961; def=154)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x0c613098b6f2fc988 (index=962; def=155)
+		[ \ ]: ExecuteIndirect: #x46bcb16e4db9d8aae (count: 1)
+		[ \ ]: BeginTask: #x0ec58ae87e296f7fc (index=963; def=160)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x06979703fe3e32794 (index=964; def=157)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x063e8780dfc00c774 (index=965; def=161)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x06304c2f91fc09fcb (index=966; def=158)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x0696ed8ab4b6a1e57 (index=967; def=159)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x0731545e708972c80 (index=968; def=176)
+		[ \ ]: End Commandlist 
+	Command List #x0f32f6a0977bdfbe3 [000002381ffbbd50]: end at fence 958584
+		[ \ ]: Begin Commandlist 
+		[ \ ]: BeginTask: #x05e946520454a9c23 (index=969; def=164)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x0731545e708972c80 (index=970; def=176)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x08d8438f83c23d3a3 (index=971; def=156)
+		[ \ ]: Dispatch: #x465657369bdc0704 (count: 1)
+		[ \ ]: BeginTask: #x0e3657ece6bc58f4 (index=972; def=165)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x0c613098b6f2fc988 (index=973; def=155)
+		[ \ ]: ExecuteIndirect: #x46bcb16e4db9d8aae (count: 1)
+		[ \ ]: BeginTask: #x01fe565f5a57ad9ab (index=974; def=166)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x097ca3b4cf6e0260d (index=975; def=170)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x0fc70e2df26b64346 (index=976; def=167)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x04812f4e891941e65 (index=977; def=177)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x0ca861f6675ab34c4 (index=978; def=178)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x0495a54babde23917 (index=979; def=179)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x08fece6475b0042f3 (index=980; def=180)
+		[ \ ]: End Commandlist 
+	Command List #x0ed261b159d41113a [0000023812f184b0]: end at fence 958584
+		[ \ ]: Begin Commandlist 
+		[ \ ]: BeginTask: #x09cb9befaeff1da23 (index=981; def=92)
+		[ \ ]: End Commandlist 
+	Command List #x0f32f6a0977bdfbe3 [000002381ffbfaa0]: end at fence 958584
+		[ \ ]: Begin Commandlist 
+		[ \ ]: BeginTask: #x06979703fe3e32794 (index=982; def=157)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x06304c2f91fc09fcb (index=983; def=158)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x0696ed8ab4b6a1e57 (index=984; def=159)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x05e946520454a9c23 (index=985; def=164)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x0e3657ece6bc58f4 (index=986; def=165)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x01fe565f5a57ad9ab (index=987; def=166)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x0fc70e2df26b64346 (index=988; def=167)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x04812f4e891941e65 (index=989; def=177)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x0ca861f6675ab34c4 (index=990; def=178)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x0495a54babde23917 (index=991; def=179)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x08fece6475b0042f3 (index=992; def=180)
+		[ \ ]: End Commandlist 
+	Command List #x0ed261b159d41113a [0000023812f1c200]: end at fence 958584
+		[ \ ]: Begin Commandlist 
+		[ \ ]: BeginTask: #x09cb9befaeff1da23 (index=993; def=92)
+		[ \ ]: End Commandlist 
+	Command List #x0f32f6a0977bdfbe3 [000002381ffbc420]: end at fence 958584
+		[ \ ]: Begin Commandlist 
+		[ \ ]: BeginTask: #x0e64d21c51d37d3b8 (index=994; def=138)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x0192dd044f53f7ed8 (index=995; def=139)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x016e8499b022a7000 (index=996; def=140)
+		[ \ ]: Dispatch: #x42c03870da6ed4ba (count: 1)
+		[ \ ]: Dispatch: #x412978ec69e423453 (count: 1)
+		[ \ ]: Dispatch: #x44844eecb4a4d7e7e (count: 1)
+		[ \ ]: BeginTask: #x0c96f6a256a64942e (index=997; def=150)
+		[ \ ]: ExecuteIndirect: #x479ca32ca1246d79b (count: 1)
+		[ \ ]: BeginTask: #x01cd9a5969bdff0a2 (index=998; def=152)
+		[ \ ]: Dispatch: #x465657369bdc0704 (count: 1)
+		[ \ ]: BeginTask: #x0246e3535bc632039 (index=999; def=153)
+		[ \ ]: ExecuteIndirect: #x42fddf788ebe4f558 (count: 1)
+		[ \ ]: BeginTask: #x0eea4ce051e64d6b6 (index=1000; def=137)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x08d8438f83c23d3a3 (index=1001; def=156)
+		[ \ ]: Dispatch: #x465657369bdc0704 (count: 1)
+		[ \ ]: BeginTask: #x01f4f43cc9347dbac (index=1002; def=154)
+		[ \ ]: Dispatch: #x41f9dad6d325e2683 (count: 1)
+		[ \ ]: BeginTask: #x06979703fe3e32794 (index=1003; def=157)
+		[ \ ]: Dispatch: #x44279632fa99c869 (count: 1)
+		[ \ ]: BeginTask: #x0ec58ae87e296f7fc (index=1004; def=160)
+		[ \ ]: ExecuteIndirect: #x4a8ae0bb2b80139 (count: 1)
+		[ \ ]: BeginTask: #x06304c2f91fc09fcb (index=1005; def=158)
+		[ \ ]: Dispatch: #x431111fb5f2324607 (count: 1)
+		[ \ ]: BeginTask: #x0696ed8ab4b6a1e57 (index=1006; def=159)
+		[ \ ]: ExecuteIndirect: #x4469f3a8466579807 (count: 1)
+		[ \ ]: BeginTask: #x063e8780dfc00c774 (index=1007; def=161)
+		[ \ ]: ExecuteIndirect: #x4a8ba48841f1fcfe (count: 1)
+	Command List #x0ed261b159d41113a [0000023812f18b80]: end at fence 958584
+		[ \ ]: Begin Commandlist 
+		[ \ ]: BeginTask: #x0b1250316ee4e45c2 (index=1008; def=83)
+		[ \ ]: End Commandlist 
+	Command List #x0f32f6a0977bdfbe3 [000002381ffc0840]: end at fence 958584
+		[ \ ]: Begin Commandlist 
+		[ \ ]: BeginTask: #x0ad8d2382db4c7113 (index=1009; def=4)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x015c82bdfcf32034b (index=1010; def=79)
+		[ \ ]: End Task 
+		[ \ ]: BeginTask: #x05e946520454a9c23 (index=1011; def=164)
+		[ \ ]: ExecuteIndirect: #x44cd5d2ba5e3ca39b (count: 1)
+		[ \ ]: BeginTask: #x0e3657ece6bc58f4 (index=1012; def=165)
+		[ \ ]: ExecuteIndirect: #x45366e41831005d34 (count: 1)
+		[ \ ]: Dispatch: #x4449165f6af69bfe1 (count: 1)
+		[ \ ]: BeginTask: #x0e3657ece6bc58f4 (index=1013; def=165)
+		[ \ ]: ExecuteIndirect: #x44279632fa99c869 (count: 1)
+		[ \ ]: ExecuteIndirect: #x45366e41831005d34 (count: 1)
+		[ \ ]: Dispatch: #x4449165f6af69bfe1 (count: 1)
+		[ \ ]: ExecuteIndirect: #x44279632fa99c869 (count: 1)
+		[ \ ]: BeginTask: #x01fe565f5a57ad9ab (index=1014; def=166)
+		[ \ ]: BeginTask: #x01fe565f5a57ad9ab (index=1015; def=166)
+		[ \ ]: Dispatch: #x431111fb5f2324607 (count: 2)
+		[ \ ]: BeginTask: #x097ca3b4cf6e0260d (index=1016; def=170)
+		[ \ ]: Dispatch: #x431111fb5f2324607 (count: 1)
+		[ \ ]: BeginTask: #x0ed4f32ff01c8a528 (index=1017; def=171)
+		[ \ ]: ExecuteIndirect: #x4708e1c8c248fedbf (count: 1)
+		[ \ ]: BeginTask: #x0fc70e2df26b64346 (index=1018; def=167)
+		[ \ ]: ExecuteIndirect: #x454ca4b2d7cd24bcc (count: 1)
+		[ \ ]: BeginTask: #x04812f4e891941e65 (index=1019; def=177)
+		[ \ ]: ExecuteIndirect: #x44ed070c3c6836a95 (count: 1)
+		[ \ ]: BeginTask: #x0ca861f6675ab34c4 (index=1020; def=178)
+		[ \ ]: ExecuteIndirect: #x47eaf1f184981ed19 (count: 1)
+		[ \ ]: Dispatch: #x4192d9af696d07394 (count: 1)
+		[ \ ]: ExecuteIndirect: #x458c3cb32e2007c1c (count: 1)
+		[ \ ]: BeginTask: #x0495a54babde23917 (index=1021; def=179)
+		[ \ ]: Dispatch: #x43310491eb1736b6a (count: 1)
+		[ \ ]: BeginTask: #x08fece6475b0042f3 (index=1022; def=180)
+		[ \ ]: ExecuteIndirect: #x450052c0199b904e9 (count: 1)
+	Fence [0000023803c08380]:
+		[ >>]: Signal: 958584 on '#x0ed261b159d41113a' (last known value = 958584)
+	Command List #x0ed261b159d41113a [0000023812f1c8d0]: end at fence 958585
+		[ - ]: Begin Commandlist 
+		[ - ]: BeginTask: #x0a8f7bcf8cb170958 (index=1023; def=610)
+		[ + ]: Dispatch: #x478e8362e0860af48 (count: 1)
+		[ + ]: Dispatch: #x441cb6dabb9f6bb29 (count: 1)
+		[ - ]: BeginTask: #x03510cd9906b3699b (index=1024; def=636)
+		[ + ]: Dispatch: #x46c323940e67f4fce (count: 1)
+		[ - ]: BeginTask: #x08cbc612dca537f4b (index=1025; def=472)
+		[ + ]: Dispatch: #x458b3ad1a895329bd (count: 1)
+		[ - ]: BeginTask: #x019ca7fed3e342ac6 (index=1026; def=70)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x0a4fdb77affb57965 (index=1027; def=173)
+		[ + ]: ExecuteIndirect: #x47f893b2f1999c7bb (count: 1)
+		[ - ]: BeginTask: #x0b8bef7a9ad234db1 (index=1028; def=303)
+		[ + ]: Dispatch: #x4640c7534188fa83e (count: 1)
+		[ - ]: BeginTask: #x0efc905fcc90e8498 (index=1029; def=343)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x086e942d610057466 (index=1030; def=6)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x05abb85be958d114 (index=1031; def=471)
+		[ + ]: Dispatch: #x47122cb3806abe5f9 (count: 1)
+		[ - ]: BeginTask: #x055c924615a342d6f (index=1032; def=473)
+		[ + ]: Dispatch: #x447585c50d9375909 (count: 4)
+		[ - ]: BeginTask: #x0dfd4449a78a0f55c (index=1033; def=85)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x0593d729cc54f1834 (index=1034; def=84)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x03bfc85f7d28a39ee (index=1035; def=592)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x0410ea9296d566ef3 (index=1036; def=21)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x014003e413477c20e (index=1037; def=19)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x0255d801cec78d112 (index=1038; def=210)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x0fd729086ef0f928d (index=1039; def=305)
+		[ - ]: CopyBufferRegion: #x47928ee570e992dae
+		[ - ]: CopyBufferRegion: #x4379b0c6e0d5f254f
+		[ - ]: CopyBufferRegion: #x4621dc0248d7ede17
+		[ - ]: CopyBufferRegion: #x43a9725ac020c30f
+		[ + ]: Dispatch: #x42c84f5974bfe1ef0 (count: 1)
+		[ - ]: BeginTask: #x04a42fe4c4dd4267c (index=1040; def=20)
+		[ - ]: End Commandlist 
+	Command List #x0f32f6a0977bdfbe3 [000002381ffc0170]: end at fence 958585
+		[ - ]: Begin Commandlist 
+		[ - ]: BeginTask: #x0255d801cec78d112 (index=1041; def=210)
+		[ - ]: BeginTask: #x0255d801cec78d112 (index=1042; def=210)
+		[ + ]: ExecuteIndirect: #x41583a1c22b63c1e2 [m: #x45266e1fbc42ff6d4 t: #x44d5d4f7eb201d66b] (count: 1)
+		[ + ]: ExecuteIndirect: #x46845ea8e59109b4c [m: #x4b7ed1b59629fb5a t: #x410f105bfcc0fe1ff] (count: 1)
+		[ - ]: BeginTask: #x0aa833443aeb4c42f (index=1043; def=348)
+		[ + ]: Dispatch: #x43c2d7c5c1a092c6 (count: 1)
+		[ - ]: BeginTask: #x0b63414a503efc5d (index=1044; def=350)
+		[ - ]: BeginTask: #x0b63414a503efc5d (index=1045; def=350)
+		[ + ]: Dispatch: #x46727d3d5c7f826a5 (count: 1)
+		[ - ]: BeginTask: #x0b63414a503efc5d (index=1046; def=350)
+		[ + ]: Dispatch: #x418eb4228283662cf (count: 2)
+		[ - ]: BeginTask: #x05e946520454a9c23 (index=1047; def=164)
+		[ + ]: ExecuteIndirect: #x43fe642551607cace (count: 1)
+		[ - ]: BeginTask: #x0e3657ece6bc58f4 (index=1048; def=165)
+		[ + ]: ExecuteIndirect: #x45366e41831005d34 (count: 1)
+		[ + ]: Dispatch: #x4449165f6af69bfe1 (count: 1)
+		[ + ]: ExecuteIndirect: #x44279632fa99c869 (count: 1)
+		[ - ]: BeginTask: #x01fe565f5a57ad9ab (index=1049; def=166)
+		[ + ]: Dispatch: #x431111fb5f2324607 (count: 1)
+		[ - ]: BeginTask: #x0ed4f32ff01c8a528 (index=1050; def=171)
+		[ + ]: ExecuteIndirect: #x4708e1c8c248fedbf (count: 1)
+		[ - ]: BeginTask: #x04812f4e891941e65 (index=1051; def=177)
+		[ + ]: ExecuteIndirect: #x44ed070c3c6836a95 (count: 1)
+	Command List #x0f32f6a0977bdfbe3 [000002381ffbd1c0]: end at fence 958585
+		[ - ]: Begin Commandlist 
+		[ - ]: BeginTask: #x0aae1dbccf96da4ba (index=1052; def=172)
+		[ + ]: ExecuteIndirect: #x448b291efeeddfa63 (count: 1)
+		[ - ]: BeginTask: #x0ca861f6675ab34c4 (index=1053; def=178)
+		[ + ]: ExecuteIndirect: #x47eaf1f184981ed19 (count: 1)
+		[ + ]: Dispatch: #x4192d9af696d07394 (count: 1)
+		[ + ]: ExecuteIndirect: #x458c3cb32e2007c1c (count: 1)
+		[ - ]: BeginTask: #x0495a54babde23917 (index=1054; def=179)
+		[ + ]: Dispatch: #x43310491eb1736b6a (count: 1)
+		[ - ]: BeginTask: #x08fece6475b0042f3 (index=1055; def=180)
+		[ + ]: ExecuteIndirect: #x450052c0199b904e9 (count: 1)
+		[ - ]: BeginTask: #x0255d801cec78d112 (index=1056; def=210)
+		[ + ]: ExecuteIndirect: #x41583a1c22b63c1e2 [m: #x45266e1fbc42ff6d4 t: #x44d5d4f7eb201d66b] (count: 1)
+		[ + ]: ExecuteIndirect: #x4544b7e84905686b8 [m: #x426e680d85a8a1a0b t: #x42995f0121e41c85d] (count: 1)
+		[ + ]: ExecuteIndirect: #x46845ea8e59109b4c [m: #x4b7ed1b59629fb5a t: #x410f105bfcc0fe1ff] (count: 1)
+		[ - ]: BeginTask: #x0da3144a9c5aef2da (index=1057; def=183)
+		[ + ]: Dispatch: #x435f54577c1dd38a4 (count: 1)
+		[ - ]: BeginTask: #x0125afb4fc647ca3e (index=1058; def=174)
+		[ + ]: ExecuteIndirect: #x470feb601d3d4c6d2 (count: 1)
+		[ - ]: BeginTask: #x0e743b03d6ea9c621 (index=1059; def=181)
+		[ + ]: ExecuteIndirect: #x46ca198f1324e27be (count: 1)
+		[ - ]: BeginTask: #x0ca861f6675ab34c4 (index=1060; def=178)
+		[ + ]: ExecuteIndirect: #x47eaf1f184981ed19 (count: 1)
+		[ + ]: Dispatch: #x4192d9af696d07394 (count: 1)
+		[ + ]: ExecuteIndirect: #x458c3cb32e2007c1c (count: 1)
+		[ - ]: BeginTask: #x0495a54babde23917 (index=1061; def=179)
+		[ + ]: Dispatch: #x43310491eb1736b6a (count: 1)
+		[ - ]: BeginTask: #x08fece6475b0042f3 (index=1062; def=180)
+		[ + ]: ExecuteIndirect: #x450052c0199b904e9 (count: 1)
+		[ - ]: BeginTask: #x0255d801cec78d112 (index=1063; def=210)
+		[ - ]: End Commandlist 
+	Command List #x0ed261b159d41113a [0000023812f1d670]: end at fence 958585
+		[ - ]: Begin Commandlist 
+		[ - ]: BeginTask: #x0d510ff3cb356f1bf (index=1064; def=211)
+		[ - ]: End Commandlist 
+	Command List #x0f32f6a0977bdfbe3 [000002381ffbd890]: end at fence 958585
+		[ - ]: Begin Commandlist 
+		[ - ]: BeginTask: #x0ce702d0c98051294 (index=1065; def=345)
+		[ + ]: Dispatch: #x4379f8551e97a2f5 (count: 1)
+		[ - ]: BeginTask: #x0b63414a503efc5d (index=1066; def=350)
+		[ - ]: BeginTask: #x0b63414a503efc5d (index=1067; def=350)
+		[ + ]: Dispatch: #x46727d3d5c7f826a5 (count: 1)
+		[ - ]: BeginTask: #x0b63414a503efc5d (index=1068; def=350)
+		[ + ]: Dispatch: #x418eb4228283662cf (count: 2)
+		[ - ]: BeginTask: #x0b05788dd4ef33608 (index=1069; def=41)
+		[ + ]: Dispatch: #x422d1f9ea0359fbc8 (count: 1)
+		[ - ]: BeginTask: #x0c47ee3890ac4231a (index=1070; def=18)
+		[ + ]: Dispatch: #x439bfc5aaca56f16c (count: 1)
+		[ - ]: BeginTask: #x0540617045983c618 (index=1071; def=217)
+		[ + ]: DrawPrimitiveInstance: #x421023f6e1dac7124 [m: #x44e02a64fc5e92cd3 t: #x44728da76d1a1accd] (count: 1)
+		[ - ]: BeginTask: #x02ead4618c4b4eb39 (index=1072; def=35)
+		[ - ]: End Commandlist 
+	Command List #x0ed261b159d41113a [0000023812f1dd40]: end at fence 958585
+		[ - ]: Begin Commandlist 
+		[ - ]: BeginTask: #x085ac5f7b0982e04 (index=1073; def=81)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x099ec24980c1909d5 (index=1074; def=42)
+		[ + ]: Dispatch: #x45a182b5f7bc65aec (count: 1)
+		[ - ]: BeginTask: #x0592806f09ead68cb (index=1075; def=45)
+		[ + ]: Dispatch: #x469cbc353a10d242 (count: 1)
+		[ - ]: BeginTask: #x0f5a111d689f1be69 (index=1076; def=280)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x05ae891cb1d9900a2 (index=1077; def=274)
+		[ + ]: Dispatch: #x46cc424da3ebad58d (count: 1)
+		[ - ]: BeginTask: #x0aad073db70a3e15 (index=1078; def=622)
+		[ + ]: Dispatch: #x46ad677d060cd72f0 (count: 1)
+	Command List #x0f32f6a0977bdfbe3 [000002381ffc0f10]: end at fence 958585
+		[ - ]: Begin Commandlist 
+		[ - ]: BeginTask: #x05d6b0ce77b04e460 (index=1079; def=292)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x0ca861f6675ab34c4 (index=1080; def=178)
+		[ + ]: ExecuteIndirect: #x47eaf1f184981ed19 (count: 1)
+		[ + ]: Dispatch: #x4192d9af696d07394 (count: 1)
+		[ + ]: ExecuteIndirect: #x458c3cb32e2007c1c (count: 1)
+		[ - ]: BeginTask: #x06bf05649391cd4ce (index=1081; def=297)
+		[ + ]: Dispatch: #x4181fc4e72ea127f2 (count: 1)
+		[ - ]: BeginTask: #x01d260b45a79799d (index=1082; def=93)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x09bdc73d26361d9d1 (index=1083; def=94)
+		[ + ]: Dispatch: #x422194802e9ccdde3 (count: 1)
+		[ - ]: BeginTask: #x09eed884eec7de7a0 (index=1084; def=69)
+		[ - ]: CopyResource: #x4612d5364802a9fc6
+		[ + ]: Dispatch: #x44c5d3790e4880be8 (count: 1)
+		[ - ]: BeginTask: #x0319f734db8b7f124 (index=1085; def=373)
+		[ + ]: Dispatch: #x41c4aa972eea8a918 (count: 1)
+		[ - ]: BeginTask: #x0d20021c099271664 (index=1086; def=293)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x04ebd8cc65a8855bd (index=1087; def=482)
+		[ + ]: Dispatch: #x4651183c42d66ae5d (count: 1)
+		[ - ]: BeginTask: #x0667974971d6a810f (index=1088; def=463)
+		[ + ]: Dispatch: #x41d88def14e072c9a (count: 1)
+	Command List #x0ed261b159d41113a [0000023812f1cfa0]: end at fence 958585
+		[ - ]: Begin Commandlist 
+		[ - ]: BeginTask: #x0951e8a4c2707d0ce (index=1089; def=611)
+		[ + ]: Dispatch: #x460bf0e0fa6c7b256 (count: 1)
+	Command List #x0f32f6a0977bdfbe3 [000002381ffc4590]: end at fence 958585
+		[ - ]: Begin Commandlist 
+		[ - ]: BeginTask: #x0d478d8bc61b9cddc (index=1090; def=241)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x034972a3acf5dc82 (index=1091; def=428)
+		[ + ]: Dispatch: #x45b921b4c75c548cf (count: 1)
+		[ + ]: Dispatch: #x4781babe132c5104a (count: 1)
+		[ + ]: Dispatch: #x434311a56876d87ec (count: 1)
+		[ + ]: Dispatch: #x41f39fd44631ca63 (count: 1)
+		[ - ]: BeginTask: #x0aad5160d4a568c1a (index=1092; def=324)
+		[ + ]: Dispatch: #x42d507dadd3418516 (count: 1)
+		[ - ]: BeginTask: #x0ca9182819e4b3c4f (index=1093; def=39)
+		[ + ]: ExecuteIndirect: #x461cde43eab51cbf2 (count: 1)
+		[ - ]: BeginTask: #x08c8f7fce7cc002cf (index=1094; def=46)
+		[ + ]: ExecuteIndirect: #x47fb32381db1bbcaa (count: 1)
+		[ - ]: BeginTask: #x09d4f23dff6a8d88e (index=1095; def=281)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x08eaf9289448dc815 (index=1096; def=623)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x0495a54babde23917 (index=1097; def=179)
+		[ + ]: Dispatch: #x43310491eb1736b6a (count: 1)
+		[ - ]: BeginTask: #x08fece6475b0042f3 (index=1098; def=180)
+		[ + ]: ExecuteIndirect: #x450052c0199b904e9 (count: 1)
+		[ - ]: BeginTask: #x056ec12a54e6b83da (index=1099; def=475)
+		[ + ]: Dispatch: #x4211ead2176939db4 (count: 1)
+		[ - ]: BeginTask: #x0e7877f8a010d446f (index=1100; def=612)
+		[ + ]: Dispatch: #x45a84c185427e054b (count: 1)
+		[ - ]: BeginTask: #x063107db6ea6ad8cc (index=1101; def=616)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x08cb5148826cc2978 (index=1102; def=240)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x0f576f37436a660a7 (index=1103; def=47)
+		[ + ]: Dispatch: #x42f49970413a8186a (count: 1)
+		[ - ]: BeginTask: #x0f0295fa378d77ebd (index=1104; def=282)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x09dbe1c6a06019df8 (index=1105; def=624)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x06239fcdf04c00f04 (index=1106; def=184)
+		[ - ]: CopyResource: #x41f2026d0578a51f4
+		[ ? ]: Dispatch: #x437ead90609a3ea46 (count: 1)
+		[ - ]: BeginTask: #x076034ed5ad1d82bb (index=1107; def=613)
+		[ ? ]: Dispatch: #x446b70d5c3ac3fd07 (count: 1)
+		[ - ]: BeginTask: #x09d4f24dff6a8da41 (index=1108; def=283)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x046539ca97a18b4d7 (index=1109; def=625)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x0a2cbd1f8d710c7ca (index=1110; def=614)
+		[ ? ]: ExecuteIndirect: #x4b3cfbd378835918 (count: 1)
+		[ - ]: BeginTask: #x09d4f21dff6a8d528 (index=1111; def=284)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x0f24733a6806e331b (index=1112; def=626)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x075c6c6ad7bc56d6 (index=1113; def=285)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x01d615ace0e3e8a1 (index=1114; def=627)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x0a9f70a2a6974a798 (index=1115; def=286)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x0fd62a5b7893dc6f0 (index=1116; def=289)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x0c7bb56577b6aa26f (index=1117; def=287)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x0f8074ca1dd775dd5 (index=1118; def=628)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x01e244976daa55bdf (index=1119; def=276)
+		[ - ]: End Commandlist 
+	Command List #x0ed261b159d41113a [0000023812f692c0]: end at fence 958585
+		[ - ]: Begin Commandlist 
+		[ - ]: BeginTask: #x02ba4e50c7509bf12 (index=1120; def=629)
+		[ - ]: End Commandlist 
+	Command List #x0f32f6a0977bdfbe3 [000002381ffc1cb0]: end at fence 958585
+		[ - ]: Begin Commandlist 
+		[ - ]: BeginTask: #x01e244a76daa55d92 (index=1121; def=277)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x01e244976daa55bdf (index=1122; def=276)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x01e244a76daa55d92 (index=1123; def=277)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x01e244976daa55bdf (index=1124; def=276)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x01e244a76daa55d92 (index=1125; def=277)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x01e244976daa55bdf (index=1126; def=276)
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x012e0812045bff206 (index=1127; def=278)
+		[ ? ]: Dispatch: #x46b576326ccea086e (count: 1)
+		[ - ]: BeginTask: #x06860502a7860afd4 (index=1128; def=288)
+		[ - ]: CopyBufferRegion: #x45ccab62406ef2e97
+		[ - ]: End Task 
+		[ - ]: BeginTask: #x0db25e4b54aa91658 (index=1129; def=299)
+		[ ? ]: ExecuteIndirect: #x42fee1c371b42c0fd [m: #x459b6d70c548539ed t: #x4f3628e5e8a6b6d2] (count: 4)
+		[ - ]: BeginTask: #x05d5a35f1914be63e (index=1130; def=302)
+		[ ? ]: ExecuteIndirect: #x47597b9e6bc19ebbc [m: #x465c690ca708ae556 t: #x44172235788b2ff14] (count: 1)
+		[ - ]: BeginTask: #x0bc7c7ab375fbff86 (index=1131; def=300)
+		[ ? ]: Dispatch: #x452b75812bc485eba (count: 1)
+		[ - ]: BeginTask: #x0ca2eea7fe60c0106 (index=1132; def=301)
+		[ ? ]: Dispatch: #x47b5e8da323f8c6c7 (count: 1)
+		[ - ]: BeginTask: #x0cee94bf2c5a5b088 (index=1133; def=298)
+		[ - ]: CopyResource: #x4412e34239eaab29a
+		[ ? ]: Dispatch: #x43252442ac2dc9af1 (count: 1)
+		[ - ]: BeginTask: #x057bb32458976185c (index=1134; def=96)
+		[ ? ]: Dispatch: #x4b27dc792d0e88f1 (count: 1)
+		[ - ]: BeginTask: #x02d0ba6892a6680a (index=1135; def=99)
+		[ ? ]: ExecuteIndirect: #x4726f7006ab5a4e1b (count: 1)
+		[ ? ]: ExecuteIndirect: #x485bea68bff5a69b (count: 1)
+		[ - ]: BeginTask: #x0a96b72cffb6ad909 (index=1136; def=97)
+		[ ? ]: Dispatch: #x415f8cc0205f7828a (count: 1)
+		[ - ]: BeginTask: #x0dfc4ce1dd391eab0 (index=1137; def=98)
+		[ ? ]: ExecuteIndirect: #x42540a973bfd49dcf (count: 1)
+	Fence [0000023803c08380]:
+		[ ? ]: Signal: 958585 on '#x0ed261b159d41113a' (last known value = 958584)
+	Fence [000002380246a140]:
+		[ ? ]: Signal: 2274 on '#x05d0737f3bc514e01' (last known value = 2273)
+	Command List #x0f32f6a0977bdfbe3 [000002381ffc37f0]: end at fence 958586
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x0b60238c0cf37f2e5 (index=1138; def=215)
+		[   ]: ExecuteIndirect: #x4224bd3e1e460d412 [m: #x4222d36eb26d3dce2 t: #x44911e449c5ee82c5] (count: 6)
+		[   ]: ExecuteIndirect: #x43f3b494fa8d833fa [m: #x4295faad3e3c5b204 t: #x4176dd782b7594d00] (count: 2)
+		[   ]: ExecuteIndirect: #x422962caae4d8b152 [m: #x451de1e2bf55d405d t: #x42b87568ccad48c6b] (count: 1)
+		[   ]: ExecuteIndirect: #x4544b7e84905686b8 [m: #x426e680d85a8a1a0b t: #x460610a9db5f090a4] (count: 1)
+		[   ]: ExecuteIndirect: #x465f0bc0b7ed231db [m: #x429564085ece5611b t: #x436d2da065f922660] (count: 1)
+		[   ]: ExecuteIndirect: #x4454f58e09834285 [m: #x4628ba537cd68bc76 t: #x41c3621cf116e014] (count: 1)
+		[   ]: ExecuteIndirect: #x43b43a736b1eb70cb [m: #x439129b8a1958d4a0 t: #x45246de634d20b99f] (count: 2)
+		       ...
+		[   ]: BeginTask: #x0c8f6361e5e7f8180 (index=1139; def=476)
+		       ...
+		[   ]: BeginTask: #x029532d665ee17d1d (index=1140; def=467)
+		       ...
+		[   ]: BeginTask: #x03ebd7c8d3d0a0a9b (index=1141; def=477)
+		       ...
+		[   ]: BeginTask: #x0678382cd8e137834 (index=1142; def=464)
+		       ...
+		[   ]: BeginTask: #x097be1af2a5eb2903 (index=1143; def=483)
+		       ...
+		[   ]: BeginTask: #x0b573165fa6c6093c (index=1144; def=479)
+		[   ]: ExecuteIndirect: #x46a97e41f3c157299 (count: 1)
+		[   ]: ExecuteIndirect: #x453e341e748f41955 (count: 1)
+		[   ]: ExecuteIndirect: #x47439c02908c55b80 (count: 1)
+		[   ]: ExecuteIndirect: #x44f187cb4b7b58bea (count: 1)
+		[   ]: ExecuteIndirect: #x4731874f41a637190 (count: 1)
+		[   ]: ExecuteIndirect: #x41fa709f55429849a (count: 1)
+		[   ]: ExecuteIndirect: #x457e79b2337f5a535 (count: 1)
+		       ...
+		[   ]: BeginTask: #x07c1261fe52f0727c (index=1145; def=481)
+		       ...
+		[   ]: BeginTask: #x0d8683d2893ce7912 (index=1146; def=393)
+		       ...
+		[   ]: BeginTask: #x0aea0756cf4a55fb8 (index=1147; def=219)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1148; def=332)
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1149; def=332)
+		[   ]: Dispatch: #x42c6343969cf9dc70 (count: 1)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1150; def=341)
+		[   ]: Dispatch: #x47689ba619780a497 (count: 1)
+	Command List #x0f32f6a0977bdfbe3 [000002381ffc2380]: end at fence 958586
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1151; def=341)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1152; def=332)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1153; def=341)
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1154; def=341)
+		[   ]: Dispatch: #x47689ba619780a497 (count: 1)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1155; def=332)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1156; def=341)
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1157; def=341)
+		[   ]: Dispatch: #x47689ba619780a497 (count: 1)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1158; def=332)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1159; def=341)
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1160; def=341)
+		[   ]: Dispatch: #x45e6860df3e97bbb7 (count: 1)
+		       ...
+		[   ]: BeginTask: #x0aea0756cf4a55fb8 (index=1161; def=219)
+		       ...
+		[   ]: BeginTask: #x0344ada9721feac54 (index=1162; def=615)
+		       ...
+		[   ]: BeginTask: #x035d837ae58740a89 (index=1163; def=617)
+		       ...
+		[   ]: BeginTask: #x076034ed5ad1d82bb (index=1164; def=613)
+		       ...
+		[   ]: BeginTask: #x01dd6d7a33553d9de (index=1165; def=618)
+		       ...
+		[   ]: BeginTask: #x08595958211a40aab (index=1166; def=619)
+		       ...
+		[   ]: BeginTask: #x0dbbbd98c197b6dfc (index=1167; def=620)
+		       ...
+		[   ]: BeginTask: #x0ee5d11f92dd7aec1 (index=1168; def=631)
+		       ...
+		[   ]: BeginTask: #x0ea430d18179d1ca4 (index=1169; def=633)
+		       ...
+		[   ]: BeginTask: #x02687a0ff64699887 (index=1170; def=500)
+		[   ]: ExecuteIndirect: #x434639524c31c2935 (count: 1)
+		[   ]: ExecuteIndirect: #x4517861c66ccba8be (count: 1)
+		[   ]: ExecuteIndirect: #x45a1780ef16168a7c (count: 1)
+		[   ]: ExecuteIndirect: #x41dbeff6301e50838 (count: 3)
+		[   ]: ExecuteIndirect: #x437df8b0a5a202dd7 (count: 1)
+		[   ]: ExecuteIndirect: #x48fdc19eb0f87204 (count: 1)
+		[   ]: ExecuteIndirect: #x450a9edde94811586 (count: 1)
+		[   ]: BeginTask: #x02687a0ff64699887 (index=1171; def=500)
+		[   ]: ExecuteIndirect: #x4ff32b692982390a (count: 3)
+		[   ]: ExecuteIndirect: #x4754d8790c181766e (count: 1)
+		[   ]: ExecuteIndirect: #x4754d8690c18174bb (count: 1)
+		[   ]: ExecuteIndirect: #x4754d8c90c1817eed (count: 1)
+		[   ]: ExecuteIndirect: #x4754d8090c1816a89 (count: 3)
+		[   ]: ExecuteIndirect: #x433eb82ff7e11a17a (count: 1)
+		[   ]: ExecuteIndirect: #x433eb81ff7e119fc7 (count: 1)
+		[   ]: ExecuteIndirect: #x433eb7fff7e119c61 (count: 1)
+		[   ]: BeginTask: #x02687a0ff64699887 (index=1172; def=500)
+		[   ]: ExecuteIndirect: #x433eb7bff7e119595 (count: 3)
+		[   ]: ExecuteIndirect: #x475efa7a82ac4f58b (count: 2)
+		[   ]: ExecuteIndirect: #x475efa8a82ac4f73e (count: 1)
+		[   ]: ExecuteIndirect: #x456f59293fb8e84c7 (count: 2)
+		[   ]: BeginTask: #x02687a0ff64699887 (index=1173; def=500)
+		[   ]: ExecuteIndirect: #x456f59393fb8e867a (count: 1)
+		[   ]: ExecuteIndirect: #x46dc76ea8264ae1f0 (count: 2)
+		[   ]: ExecuteIndirect: #x46dc771a8264ae709 (count: 1)
+		[   ]: ExecuteIndirect: #x44ecd5993f714712c (count: 2)
+		[   ]: BeginTask: #x02687a0ff64699887 (index=1174; def=500)
+		[   ]: ExecuteIndirect: #x44ecd5c93f7147645 (count: 1)
+		[   ]: ExecuteIndirect: #x475efa7a82ac4f58b (count: 2)
+		[   ]: ExecuteIndirect: #x475efa8a82ac4f73e (count: 1)
+		[   ]: ExecuteIndirect: #x456f59293fb8e84c7 (count: 2)
+		[   ]: BeginTask: #x02687a0ff64699887 (index=1175; def=500)
+		[   ]: ExecuteIndirect: #x456f59393fb8e867a (count: 1)
+		[   ]: ExecuteIndirect: #x46dc76ea8264ae1f0 (count: 2)
+		[   ]: ExecuteIndirect: #x46dc771a8264ae709 (count: 1)
+		[   ]: ExecuteIndirect: #x44ecd5993f714712c (count: 2)
+		[   ]: BeginTask: #x02687a0ff64699887 (index=1176; def=500)
+		[   ]: ExecuteIndirect: #x44ecd5c93f7147645 (count: 1)
+		[   ]: ExecuteIndirect: #x475efa7a82ac4f58b (count: 2)
+		[   ]: ExecuteIndirect: #x475efa8a82ac4f73e (count: 1)
+		[   ]: ExecuteIndirect: #x456f59293fb8e84c7 (count: 2)
+		[   ]: BeginTask: #x02687a0ff64699887 (index=1177; def=500)
+		[   ]: ExecuteIndirect: #x456f59393fb8e867a (count: 1)
+		[   ]: ExecuteIndirect: #x46dc76ea8264ae1f0 (count: 2)
+		[   ]: ExecuteIndirect: #x46dc771a8264ae709 (count: 1)
+		[   ]: ExecuteIndirect: #x44ecd5993f714712c (count: 2)
+		       ...
+		[   ]: BeginTask: #x074e304c99989287e (index=1178; def=637)
+		       ...
+		[   ]: End Commandlist 
+	Command List #x0f32f6a0977bdfbe3 [000002381ffc2a50]: end at fence 958586
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x0cb4bd620133e525b (index=1179; def=246)
+		[   ]: DrawPrimitiveInstance: #x46dd9e501b99ba0e6 [m: #x47f642ede4ca4324e t: #x41b3f1828452263a9] (count: 1)
+		       ...
+		[   ]: BeginTask: #x0cb8eb2e6428d4100 (index=1180; def=250)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1181; def=332)
+		[   ]: Dispatch: #x42c6343969cf9dc70 (count: 1)
+	Command List #x0f32f6a0977bdfbe3 [000002381ffc3120]: end at fence 958586
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1182; def=332)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1183; def=341)
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1184; def=341)
+		[   ]: Dispatch: #x47689ba619780a497 (count: 1)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1185; def=332)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1186; def=341)
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1187; def=341)
+		[   ]: Dispatch: #x47689ba619780a497 (count: 1)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1188; def=332)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1189; def=341)
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1190; def=341)
+		[   ]: Dispatch: #x47689ba619780a497 (count: 1)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1191; def=332)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1192; def=341)
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1193; def=341)
+		[   ]: Dispatch: #x45e6860df3e97bbb7 (count: 1)
+		       ...
+		[   ]: BeginTask: #x0cb4bd620133e525b (index=1194; def=246)
+		[   ]: BeginTask: #x0cb4bd620133e525b (index=1195; def=246)
+		       ...
+		[   ]: BeginTask: #x07336d51f09c5cb75 (index=1196; def=11)
+		       ...
+		[   ]: BeginTask: #x0aea0756cf4a55fb8 (index=1197; def=219)
+		[   ]: BeginTask: #x0aea0756cf4a55fb8 (index=1198; def=219)
+		       ...
+		[   ]: BeginTask: #x0cb4bd620133e525b (index=1199; def=246)
+		[   ]: End Commandlist 
+	Command List #x0ed261b159d41113a [0000023812f69990]: end at fence 958586
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x08a2a5b17c4d287de (index=1200; def=29)
+		       ...
+		[   ]: BeginTask: #x038ace7e4c9737935 (index=1201; def=536)
+		       ...
+		[   ]: BeginTask: #x0c82a13dfae683fd0 (index=1202; def=80)
+		       ...
+		[   ]: BeginTask: #x0c34540ed3e25a982 (index=1203; def=88)
+		       ...
+		[   ]: BeginTask: #x08d083e055730dfff (index=1204; def=538)
+		       ...
+		[   ]: BeginTask: #x02645e3b30d2040c4 (index=1205; def=539)
+		       ...
+		[   ]: BeginTask: #x0fe70756e2449f789 (index=1206; def=540)
+		       ...
+		[   ]: BeginTask: #x0d66a51d2222d130 (index=1207; def=496)
+		       ...
+		[   ]: BeginTask: #x0cf033249211b6873 (index=1208; def=495)
+		       ...
+		[   ]: BeginTask: #x03cd75e2a9ecf4a59 (index=1209; def=589)
+		[   ]: End Commandlist 
+	Command List #x0f32f6a0977bdfbe3 [000002381ffc15e0]: end at fence 958586
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x0cb058e7fcd90fe0f (index=1210; def=325)
+		       ...
+		[   ]: BeginTask: #x09a84edfc24a166a3 (index=1211; def=334)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1212; def=332)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1213; def=341)
+		       ...
+		[   ]: BeginTask: #x031f9b24f0907c90c (index=1214; def=326)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1215; def=332)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1216; def=341)
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1217; def=341)
+		[   ]: Dispatch: #x473654bd9b09ed65f (count: 1)
+		       ...
+		[   ]: BeginTask: #x0f270db899b992d1c (index=1218; def=327)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1219; def=332)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1220; def=341)
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1221; def=341)
+		[   ]: Dispatch: #x473654bd9b09ed65f (count: 1)
+		       ...
+		[   ]: BeginTask: #x0f270db899b992d1c (index=1222; def=327)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1223; def=341)
+		       ...
+		[   ]: BeginTask: #x057787502fb41b220 (index=1224; def=429)
+		[   ]: Dispatch: #x431d72de20777ab3f (count: 1)
+		[   ]: Dispatch: #x4b0f7ce2bee06827 (count: 1)
+		       ...
+		[   ]: BeginTask: #x0f270db899b992d1c (index=1225; def=327)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1226; def=332)
+		       ...
+		[   ]: BeginTask: #x0f270db899b992d1c (index=1227; def=327)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1228; def=332)
+		       ...
+		[   ]: BeginTask: #x0f270db899b992d1c (index=1229; def=327)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1230; def=332)
+		       ...
+		[   ]: BeginTask: #x06fc11c662e2b1941 (index=1231; def=328)
+		       ...
+		[   ]: BeginTask: #x05d0dcf0d67e28195 (index=1232; def=329)
+		       ...
+		[   ]: BeginTask: #x06fc11c662e2b1941 (index=1233; def=328)
+		       ...
+		[   ]: BeginTask: #x05d0dcf0d67e28195 (index=1234; def=329)
+		       ...
+		[   ]: BeginTask: #x06fc11c662e2b1941 (index=1235; def=328)
+		       ...
+		[   ]: BeginTask: #x05d0dcf0d67e28195 (index=1236; def=329)
+		       ...
+		[   ]: BeginTask: #x06fc11c662e2b1941 (index=1237; def=328)
+		[   ]: BeginTask: #x06fc11c662e2b1941 (index=1238; def=328)
+		[   ]: Dispatch: #x47709cdf68f8850c6 (count: 2)
+	Command List #x0ed261b159d41113a [0000023812f68bf0]: end at fence 958586
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x09a8f721cdce22cf7 (index=1239; def=430)
+		       ...
+		[   ]: BeginTask: #x0185d13a763899789 (index=1240; def=439)
+		       ...
+		[   ]: BeginTask: #x0db0cc42fb9dd7854 (index=1241; def=27)
+		       ...
+		[   ]: BeginTask: #x08151319e80a10839 (index=1242; def=435)
+		       ...
+		[   ]: BeginTask: #x0185d13a763899789 (index=1243; def=439)
+		       ...
+		[   ]: BeginTask: #x0f1bf171f98fea73a (index=1244; def=594)
+		       ...
+		[   ]: BeginTask: #x09c89e0870654f157 (index=1245; def=220)
+		[   ]: End Commandlist 
+	Command List #x0ed261b159d41113a [0000023812f67780]: end at fence 958586
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x0924383d470701f4e (index=1246; def=62)
+		[   ]: End Commandlist 
+	Fence [0000023803c08380]:
+		[   ]: Signal: 958586 on '#x0ed261b159d41113a' (last known value = 958584)
+	Command List #x0ed261b159d41113a [0000023812f6a060]: end at fence 958587
+		[   ]: Begin Commandlist 
+		       ...
+		[   ]: BeginTask: #x0a066c2a068c2bc75 (index=1247; def=26)
+		       ...
+		[   ]: BeginTask: #x0bf039df9082149af (index=1248; def=58)
+		       ...
+		[   ]: BeginTask: #x0185d13a763899789 (index=1249; def=439)
+		       ...
+		[   ]: BeginTask: #x05fcd56a0d5685d76 (index=1250; def=28)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 3)
+		[   ]: DrawPrimitiveInstance: #x47819fb7458ba24ff [m: #x41ac9be14b5be927f t: #x41ea317aa446ed228] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 28)
+		[   ]: DrawPrimitiveInstance: #x45f6779c9e77d94cc [m: #x43b5e3aeecb53cdc t: #x44673d1e94bf0da30] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 28)
+		[   ]: DrawPrimitiveInstance: #x45f6779c9e77d94cc [m: #x43b5e3aeecb53cdc t: #x44673d1e94bf0da30] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 28)
+		[   ]: DrawPrimitiveInstance: #x45f6779c9e77d94cc [m: #x43b5e3aeecb53cdc t: #x44673d1e94bf0da30] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x412e4027155fcccd5 [m: #x45e1915c7844b2ef2 t: #x4ac857673f4f5fb5] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 4)
+		[   ]: DrawPrimitiveInstance: #x45f6779c9e77d94cc [m: #x43b5e3aeecb53cdc t: #x44673d1e94bf0da30] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x419861a1710a43656 [m: #x4793d949005672cc8 t: #x4760c71c6dec95ec5] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 10)
+		[   ]: DrawPrimitiveInstance: #x45f6779c9e77d94cc [m: #x43b5e3aeecb53cdc t: #x44673d1e94bf0da30] (count: 9)
+		[   ]: DrawPrimitiveInstance: #x453efb42ef1d7d402 [m: #x47ea42b0c15d1dd9f t: #x42af03d835b83d6bb] (count: 9)
+		[   ]: DrawPrimitiveInstance: #x45f6779c9e77d94cc [m: #x43b5e3aeecb53cdc t: #x44673d1e94bf0da30] (count: 9)
+		[   ]: DrawPrimitiveInstance: #x453efb42ef1d7d402 [m: #x47ea42b0c15d1dd9f t: #x42af03d835b83d6bb] (count: 9)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x453efb42ef1d7d402 [m: #x47ea42b0c15d1dd9f t: #x42af03d835b83d6bb] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 7)
+		[   ]: DrawPrimitiveInstance: #x453efb42ef1d7d402 [m: #x47ea42b0c15d1dd9f t: #x42af03d835b83d6bb] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 46)
+		[   ]: DrawPrimitiveInstance: #x419861a1710a43656 [m: #x4793d949005672cc8 t: #x4760c71c6dec95ec5] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x45f6779c9e77d94cc [m: #x43b5e3aeecb53cdc t: #x44673d1e94bf0da30] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 3)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		       ...
+		[   ]: BeginTask: #x03b4f27dc69137838 (index=1251; def=86)
+		       ...
+		[   ]: BeginTask: #x0ed73e1c7bba6290f (index=1252; def=87)
+		       ...
+		[   ]: BeginTask: #x0185d13a763899789 (index=1253; def=439)
+		       ...
+		[   ]: End Commandlist 
+	Fence [0000023803c08380]:
+		[   ]: Signal: 958587 on '#x0ed261b159d41113a' (last known value = 958584)
+	Command List #x0ed261b159d41113a [0000023812f669e0]: end at fence 958588
+		[   ]: Begin Commandlist 
+		[   ]: End Commandlist 
+	Fence [0000023803c08380]:
+		[   ]: Signal: 958588 on '#x0ed261b159d41113a' (last known value = 958584)
+	Fence [0000023803c0abc0]:
+		[ >>]: Wait: 201153 on '#x05225bd77a61f971c' (last known value = 201153)
+	Fence [0000023803c08210]:
+		[ \ ]: Wait: 0 on '#x0bf903911984eee4' (last known value = 26763)
+	Fence [0000023803c06550]:
+		[ ? ]: Wait: 195672 on '#x05b5d83f2cb9f8c26' (last known value = 195671)
+	Command List #x0ed261b159d41113a [0000023812f67e50]: end at fence 958589
+		[   ]: Begin Commandlist 
+		[   ]: 
+		[   ]: BeginTask: #x0ac539f09ffce0943 (index=951; def=82)
+		       ...
+		[   ]: BeginTask: #x01280571585d9a4ee (index=952; def=61)
+		       ...
+		[   ]: BeginTask: #x0e64d21c51d37d3b8 (index=953; def=138)
+		       ...
+		[   ]: BeginTask: #x0192dd044f53f7ed8 (index=954; def=139)
+		       ...
+		[   ]: BeginTask: #x016e8499b022a7000 (index=955; def=140)
+		       ...
+		[   ]: BeginTask: #x0c96f6a256a64942e (index=956; def=150)
+		       ...
+		[   ]: BeginTask: #x01cd9a5969bdff0a2 (index=957; def=152)
+		       ...
+		[   ]: BeginTask: #x0246e3535bc632039 (index=958; def=153)
+		       ...
+		[   ]: BeginTask: #x0eea4ce051e64d6b6 (index=959; def=137)
+		       ...
+		[   ]: BeginTask: #x08d8438f83c23d3a3 (index=960; def=156)
+		       ...
+		[   ]: BeginTask: #x01f4f43cc9347dbac (index=961; def=154)
+		       ...
+		[   ]: BeginTask: #x0c613098b6f2fc988 (index=962; def=155)
+		       ...
+		[   ]: BeginTask: #x0ec58ae87e296f7fc (index=963; def=160)
+		       ...
+		[   ]: BeginTask: #x06979703fe3e32794 (index=964; def=157)
+		       ...
+		[   ]: BeginTask: #x063e8780dfc00c774 (index=965; def=161)
+		       ...
+		[   ]: BeginTask: #x06304c2f91fc09fcb (index=966; def=158)
+		       ...
+		[   ]: BeginTask: #x0696ed8ab4b6a1e57 (index=967; def=159)
+		       ...
+		[   ]: BeginTask: #x0731545e708972c80 (index=968; def=176)
+		[   ]: End Commandlist 
+	Command List #x0f32f6a0977bdfbe3 [000002382042f880]: end at fence 958589
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x05e946520454a9c23 (index=969; def=164)
+		       ...
+		[   ]: BeginTask: #x0731545e708972c80 (index=970; def=176)
+		       ...
+		[   ]: BeginTask: #x08d8438f83c23d3a3 (index=971; def=156)
+		       ...
+		[   ]: BeginTask: #x0e3657ece6bc58f4 (index=972; def=165)
+		       ...
+		[   ]: BeginTask: #x0c613098b6f2fc988 (index=973; def=155)
+		       ...
+		[   ]: BeginTask: #x01fe565f5a57ad9ab (index=974; def=166)
+		       ...
+		[   ]: BeginTask: #x097ca3b4cf6e0260d (index=975; def=170)
+		       ...
+		[   ]: BeginTask: #x0fc70e2df26b64346 (index=976; def=167)
+		       ...
+		[   ]: BeginTask: #x04812f4e891941e65 (index=977; def=177)
+		       ...
+		[   ]: BeginTask: #x0ca861f6675ab34c4 (index=978; def=178)
+		       ...
+		[   ]: BeginTask: #x0495a54babde23917 (index=979; def=179)
+		       ...
+		[   ]: BeginTask: #x08fece6475b0042f3 (index=980; def=180)
+		[   ]: End Commandlist 
+	Command List #x0ed261b159d41113a [0000023812f6a730]: end at fence 958589
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x09cb9befaeff1da23 (index=981; def=92)
+		[   ]: End Commandlist 
+	Command List #x0f32f6a0977bdfbe3 [0000023820436580]: end at fence 958589
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x06979703fe3e32794 (index=982; def=157)
+		       ...
+		[   ]: BeginTask: #x06304c2f91fc09fcb (index=983; def=158)
+		       ...
+		[   ]: BeginTask: #x0696ed8ab4b6a1e57 (index=984; def=159)
+		       ...
+		[   ]: BeginTask: #x05e946520454a9c23 (index=985; def=164)
+		       ...
+		[   ]: BeginTask: #x0e3657ece6bc58f4 (index=986; def=165)
+		       ...
+		[   ]: BeginTask: #x01fe565f5a57ad9ab (index=987; def=166)
+		       ...
+		[   ]: BeginTask: #x0fc70e2df26b64346 (index=988; def=167)
+		       ...
+		[   ]: BeginTask: #x04812f4e891941e65 (index=989; def=177)
+		       ...
+		[   ]: BeginTask: #x0ca861f6675ab34c4 (index=990; def=178)
+		       ...
+		[   ]: BeginTask: #x0495a54babde23917 (index=991; def=179)
+		       ...
+		[   ]: BeginTask: #x08fece6475b0042f3 (index=992; def=180)
+		[   ]: End Commandlist 
+	Command List #x0ed261b159d41113a [0000023812f68520]: end at fence 958589
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x09cb9befaeff1da23 (index=993; def=92)
+		[   ]: End Commandlist 
+	Command List #x0f32f6a0977bdfbe3 [00000238204335d0]: end at fence 958589
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x0e64d21c51d37d3b8 (index=994; def=138)
+		       ...
+		[   ]: BeginTask: #x0192dd044f53f7ed8 (index=995; def=139)
+		       ...
+		[   ]: BeginTask: #x016e8499b022a7000 (index=996; def=140)
+		[   ]: Dispatch: #x42c03870da6ed4ba (count: 1)
+		[   ]: Dispatch: #x412978ec69e423453 (count: 1)
+		       ...
+		[   ]: BeginTask: #x0c96f6a256a64942e (index=997; def=150)
+		       ...
+		[   ]: BeginTask: #x01cd9a5969bdff0a2 (index=998; def=152)
+		       ...
+		[   ]: BeginTask: #x0246e3535bc632039 (index=999; def=153)
+		       ...
+		[   ]: BeginTask: #x0eea4ce051e64d6b6 (index=1000; def=137)
+		       ...
+		[   ]: BeginTask: #x08d8438f83c23d3a3 (index=1001; def=156)
+		       ...
+		[   ]: BeginTask: #x01f4f43cc9347dbac (index=1002; def=154)
+		       ...
+		[   ]: BeginTask: #x06979703fe3e32794 (index=1003; def=157)
+		       ...
+		[   ]: BeginTask: #x0ec58ae87e296f7fc (index=1004; def=160)
+		       ...
+		[   ]: BeginTask: #x06304c2f91fc09fcb (index=1005; def=158)
+		       ...
+		[   ]: BeginTask: #x0696ed8ab4b6a1e57 (index=1006; def=159)
+		       ...
+		[   ]: BeginTask: #x063e8780dfc00c774 (index=1007; def=161)
+		[   ]: ExecuteIndirect: #x4a8ba48841f1fcfe (count: 1)
+	Command List #x0ed261b159d41113a [0000023812f670b0]: end at fence 958589
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x0b1250316ee4e45c2 (index=1008; def=83)
+		[   ]: End Commandlist 
+	Command List #x0f32f6a0977bdfbe3 [00000238204357e0]: end at fence 958589
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x0ad8d2382db4c7113 (index=1009; def=4)
+		       ...
+		[   ]: BeginTask: #x015c82bdfcf32034b (index=1010; def=79)
+		       ...
+		[   ]: BeginTask: #x05e946520454a9c23 (index=1011; def=164)
+		       ...
+		[   ]: BeginTask: #x0e3657ece6bc58f4 (index=1012; def=165)
+		[   ]: ExecuteIndirect: #x45366e41831005d34 (count: 1)
+		[   ]: Dispatch: #x4449165f6af69bfe1 (count: 1)
+		[   ]: BeginTask: #x0e3657ece6bc58f4 (index=1013; def=165)
+		[   ]: ExecuteIndirect: #x44279632fa99c869 (count: 1)
+		[   ]: ExecuteIndirect: #x45366e41831005d34 (count: 1)
+		[   ]: Dispatch: #x4449165f6af69bfe1 (count: 1)
+		       ...
+		[   ]: BeginTask: #x01fe565f5a57ad9ab (index=1014; def=166)
+		[   ]: BeginTask: #x01fe565f5a57ad9ab (index=1015; def=166)
+		       ...
+		[   ]: BeginTask: #x097ca3b4cf6e0260d (index=1016; def=170)
+		       ...
+		[   ]: BeginTask: #x0ed4f32ff01c8a528 (index=1017; def=171)
+		       ...
+		[   ]: BeginTask: #x0fc70e2df26b64346 (index=1018; def=167)
+		       ...
+		[   ]: BeginTask: #x04812f4e891941e65 (index=1019; def=177)
+		       ...
+		[   ]: BeginTask: #x0ca861f6675ab34c4 (index=1020; def=178)
+		[   ]: ExecuteIndirect: #x47eaf1f184981ed19 (count: 1)
+		[   ]: Dispatch: #x4192d9af696d07394 (count: 1)
+		       ...
+		[   ]: BeginTask: #x0495a54babde23917 (index=1021; def=179)
+		       ...
+		[   ]: BeginTask: #x08fece6475b0042f3 (index=1022; def=180)
+		[   ]: ExecuteIndirect: #x450052c0199b904e9 (count: 1)
+	Fence [0000023803c08380]:
+		[   ]: Signal: 958589 on '#x0ed261b159d41113a' (last known value = 958584)
+	Command List #x0ed261b159d41113a [0000023812f6c940]: end at fence 958590
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x0a8f7bcf8cb170958 (index=1023; def=610)
+		[   ]: Dispatch: #x478e8362e0860af48 (count: 1)
+		       ...
+		[   ]: BeginTask: #x03510cd9906b3699b (index=1024; def=636)
+		       ...
+		[   ]: BeginTask: #x08cbc612dca537f4b (index=1025; def=472)
+		       ...
+		[   ]: BeginTask: #x019ca7fed3e342ac6 (index=1026; def=70)
+		       ...
+		[   ]: BeginTask: #x0a4fdb77affb57965 (index=1027; def=173)
+		       ...
+		[   ]: BeginTask: #x0b8bef7a9ad234db1 (index=1028; def=303)
+		       ...
+		[   ]: BeginTask: #x0efc905fcc90e8498 (index=1029; def=343)
+		       ...
+		[   ]: BeginTask: #x086e942d610057466 (index=1030; def=6)
+		       ...
+		[   ]: BeginTask: #x05abb85be958d114 (index=1031; def=471)
+		       ...
+		[   ]: BeginTask: #x055c924615a342d6f (index=1032; def=473)
+		       ...
+		[   ]: BeginTask: #x0dfd4449a78a0f55c (index=1033; def=85)
+		       ...
+		[   ]: BeginTask: #x0593d729cc54f1834 (index=1034; def=84)
+		       ...
+		[   ]: BeginTask: #x03bfc85f7d28a39ee (index=1035; def=592)
+		       ...
+		[   ]: BeginTask: #x0410ea9296d566ef3 (index=1036; def=21)
+		       ...
+		[   ]: BeginTask: #x014003e413477c20e (index=1037; def=19)
+		       ...
+		[   ]: BeginTask: #x0255d801cec78d112 (index=1038; def=210)
+		       ...
+		[   ]: BeginTask: #x0fd729086ef0f928d (index=1039; def=305)
+		       ...
+		[   ]: BeginTask: #x04a42fe4c4dd4267c (index=1040; def=20)
+		[   ]: End Commandlist 
+	Command List #x0f32f6a0977bdfbe3 [0000023820434a40]: end at fence 958590
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x0255d801cec78d112 (index=1041; def=210)
+		[   ]: BeginTask: #x0255d801cec78d112 (index=1042; def=210)
+		[   ]: ExecuteIndirect: #x41583a1c22b63c1e2 [m: #x45266e1fbc42ff6d4 t: #x44d5d4f7eb201d66b] (count: 1)
+		       ...
+		[   ]: BeginTask: #x0aa833443aeb4c42f (index=1043; def=348)
+		       ...
+		[   ]: BeginTask: #x0b63414a503efc5d (index=1044; def=350)
+		[   ]: BeginTask: #x0b63414a503efc5d (index=1045; def=350)
+		[   ]: Dispatch: #x46727d3d5c7f826a5 (count: 1)
+		[   ]: BeginTask: #x0b63414a503efc5d (index=1046; def=350)
+		       ...
+		[   ]: BeginTask: #x05e946520454a9c23 (index=1047; def=164)
+		       ...
+		[   ]: BeginTask: #x0e3657ece6bc58f4 (index=1048; def=165)
+		[   ]: ExecuteIndirect: #x45366e41831005d34 (count: 1)
+		[   ]: Dispatch: #x4449165f6af69bfe1 (count: 1)
+		       ...
+		[   ]: BeginTask: #x01fe565f5a57ad9ab (index=1049; def=166)
+		       ...
+		[   ]: BeginTask: #x0ed4f32ff01c8a528 (index=1050; def=171)
+		       ...
+		[   ]: BeginTask: #x04812f4e891941e65 (index=1051; def=177)
+		[   ]: ExecuteIndirect: #x44ed070c3c6836a95 (count: 1)
+	Command List #x0f32f6a0977bdfbe3 [0000023820435eb0]: end at fence 958590
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x0aae1dbccf96da4ba (index=1052; def=172)
+		       ...
+		[   ]: BeginTask: #x0ca861f6675ab34c4 (index=1053; def=178)
+		[   ]: ExecuteIndirect: #x47eaf1f184981ed19 (count: 1)
+		[   ]: Dispatch: #x4192d9af696d07394 (count: 1)
+		       ...
+		[   ]: BeginTask: #x0495a54babde23917 (index=1054; def=179)
+		       ...
+		[   ]: BeginTask: #x08fece6475b0042f3 (index=1055; def=180)
+		       ...
+		[   ]: BeginTask: #x0255d801cec78d112 (index=1056; def=210)
+		[   ]: ExecuteIndirect: #x41583a1c22b63c1e2 [m: #x45266e1fbc42ff6d4 t: #x44d5d4f7eb201d66b] (count: 1)
+		[   ]: ExecuteIndirect: #x4544b7e84905686b8 [m: #x426e680d85a8a1a0b t: #x42995f0121e41c85d] (count: 1)
+		       ...
+		[   ]: BeginTask: #x0da3144a9c5aef2da (index=1057; def=183)
+		       ...
+		[   ]: BeginTask: #x0125afb4fc647ca3e (index=1058; def=174)
+		       ...
+		[   ]: BeginTask: #x0e743b03d6ea9c621 (index=1059; def=181)
+		       ...
+		[   ]: BeginTask: #x0ca861f6675ab34c4 (index=1060; def=178)
+		[   ]: ExecuteIndirect: #x47eaf1f184981ed19 (count: 1)
+		[   ]: Dispatch: #x4192d9af696d07394 (count: 1)
+		       ...
+		[   ]: BeginTask: #x0495a54babde23917 (index=1061; def=179)
+		       ...
+		[   ]: BeginTask: #x08fece6475b0042f3 (index=1062; def=180)
+		       ...
+		[   ]: BeginTask: #x0255d801cec78d112 (index=1063; def=210)
+		[   ]: End Commandlist 
+	Command List #x0ed261b159d41113a [0000023812f6ae00]: end at fence 958590
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x0d510ff3cb356f1bf (index=1064; def=211)
+		[   ]: End Commandlist 
+	Command List #x0f32f6a0977bdfbe3 [0000023820436c50]: end at fence 958590
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x0ce702d0c98051294 (index=1065; def=345)
+		       ...
+		[   ]: BeginTask: #x0b63414a503efc5d (index=1066; def=350)
+		[   ]: BeginTask: #x0b63414a503efc5d (index=1067; def=350)
+		[   ]: Dispatch: #x46727d3d5c7f826a5 (count: 1)
+		[   ]: BeginTask: #x0b63414a503efc5d (index=1068; def=350)
+		       ...
+		[   ]: BeginTask: #x0b05788dd4ef33608 (index=1069; def=41)
+		       ...
+		[   ]: BeginTask: #x0c47ee3890ac4231a (index=1070; def=18)
+		       ...
+		[   ]: BeginTask: #x0540617045983c618 (index=1071; def=217)
+		       ...
+		[   ]: BeginTask: #x02ead4618c4b4eb39 (index=1072; def=35)
+		[   ]: End Commandlist 
+	Command List #x0ed261b159d41113a [0000023812f6c270]: end at fence 958590
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x085ac5f7b0982e04 (index=1073; def=81)
+		       ...
+		[   ]: BeginTask: #x099ec24980c1909d5 (index=1074; def=42)
+		       ...
+		[   ]: BeginTask: #x0592806f09ead68cb (index=1075; def=45)
+		       ...
+		[   ]: BeginTask: #x0f5a111d689f1be69 (index=1076; def=280)
+		       ...
+		[   ]: BeginTask: #x05ae891cb1d9900a2 (index=1077; def=274)
+		       ...
+		[   ]: BeginTask: #x0aad073db70a3e15 (index=1078; def=622)
+		[   ]: Dispatch: #x46ad677d060cd72f0 (count: 1)
+	Command List #x0f32f6a0977bdfbe3 [0000023820437320]: end at fence 958590
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x05d6b0ce77b04e460 (index=1079; def=292)
+		       ...
+		[   ]: BeginTask: #x0ca861f6675ab34c4 (index=1080; def=178)
+		[   ]: ExecuteIndirect: #x47eaf1f184981ed19 (count: 1)
+		[   ]: Dispatch: #x4192d9af696d07394 (count: 1)
+		       ...
+		[   ]: BeginTask: #x06bf05649391cd4ce (index=1081; def=297)
+		       ...
+		[   ]: BeginTask: #x01d260b45a79799d (index=1082; def=93)
+		       ...
+		[   ]: BeginTask: #x09bdc73d26361d9d1 (index=1083; def=94)
+		       ...
+		[   ]: BeginTask: #x09eed884eec7de7a0 (index=1084; def=69)
+		       ...
+		[   ]: BeginTask: #x0319f734db8b7f124 (index=1085; def=373)
+		       ...
+		[   ]: BeginTask: #x0d20021c099271664 (index=1086; def=293)
+		       ...
+		[   ]: BeginTask: #x04ebd8cc65a8855bd (index=1087; def=482)
+		       ...
+		[   ]: BeginTask: #x0667974971d6a810f (index=1088; def=463)
+		[   ]: Dispatch: #x41d88def14e072c9a (count: 1)
+	Command List #x0ed261b159d41113a [0000023812f6ddb0]: end at fence 958590
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x0951e8a4c2707d0ce (index=1089; def=611)
+		[   ]: Dispatch: #x460bf0e0fa6c7b256 (count: 1)
+	Command List #x0f32f6a0977bdfbe3 [0000023820433ca0]: end at fence 958590
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x0d478d8bc61b9cddc (index=1090; def=241)
+		       ...
+		[   ]: BeginTask: #x034972a3acf5dc82 (index=1091; def=428)
+		[   ]: Dispatch: #x45b921b4c75c548cf (count: 1)
+		[   ]: Dispatch: #x4781babe132c5104a (count: 1)
+		[   ]: Dispatch: #x434311a56876d87ec (count: 1)
+		       ...
+		[   ]: BeginTask: #x0aad5160d4a568c1a (index=1092; def=324)
+		       ...
+		[   ]: BeginTask: #x0ca9182819e4b3c4f (index=1093; def=39)
+		       ...
+		[   ]: BeginTask: #x08c8f7fce7cc002cf (index=1094; def=46)
+		       ...
+		[   ]: BeginTask: #x09d4f23dff6a8d88e (index=1095; def=281)
+		       ...
+		[   ]: BeginTask: #x08eaf9289448dc815 (index=1096; def=623)
+		       ...
+		[   ]: BeginTask: #x0495a54babde23917 (index=1097; def=179)
+		       ...
+		[   ]: BeginTask: #x08fece6475b0042f3 (index=1098; def=180)
+		       ...
+		[   ]: BeginTask: #x056ec12a54e6b83da (index=1099; def=475)
+		       ...
+		[   ]: BeginTask: #x0e7877f8a010d446f (index=1100; def=612)
+		       ...
+		[   ]: BeginTask: #x063107db6ea6ad8cc (index=1101; def=616)
+		       ...
+		[   ]: BeginTask: #x08cb5148826cc2978 (index=1102; def=240)
+		       ...
+		[   ]: BeginTask: #x0f576f37436a660a7 (index=1103; def=47)
+		       ...
+		[   ]: BeginTask: #x0f0295fa378d77ebd (index=1104; def=282)
+		       ...
+		[   ]: BeginTask: #x09dbe1c6a06019df8 (index=1105; def=624)
+		       ...
+		[   ]: BeginTask: #x06239fcdf04c00f04 (index=1106; def=184)
+		       ...
+		[   ]: BeginTask: #x076034ed5ad1d82bb (index=1107; def=613)
+		       ...
+		[   ]: BeginTask: #x09d4f24dff6a8da41 (index=1108; def=283)
+		       ...
+		[   ]: BeginTask: #x046539ca97a18b4d7 (index=1109; def=625)
+		       ...
+		[   ]: BeginTask: #x0a2cbd1f8d710c7ca (index=1110; def=614)
+		       ...
+		[   ]: BeginTask: #x09d4f21dff6a8d528 (index=1111; def=284)
+		       ...
+		[   ]: BeginTask: #x0f24733a6806e331b (index=1112; def=626)
+		       ...
+		[   ]: BeginTask: #x075c6c6ad7bc56d6 (index=1113; def=285)
+		       ...
+		[   ]: BeginTask: #x01d615ace0e3e8a1 (index=1114; def=627)
+		       ...
+		[   ]: BeginTask: #x0a9f70a2a6974a798 (index=1115; def=286)
+		       ...
+		[   ]: BeginTask: #x0fd62a5b7893dc6f0 (index=1116; def=289)
+		       ...
+		[   ]: BeginTask: #x0c7bb56577b6aa26f (index=1117; def=287)
+		       ...
+		[   ]: BeginTask: #x0f8074ca1dd775dd5 (index=1118; def=628)
+		       ...
+		[   ]: BeginTask: #x01e244976daa55bdf (index=1119; def=276)
+		[   ]: End Commandlist 
+	Command List #x0ed261b159d41113a [0000023801d162e0]: end at fence 958590
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x02ba4e50c7509bf12 (index=1120; def=629)
+		[   ]: End Commandlist 
+	Command List #x0f32f6a0977bdfbe3 [00000238204379f0]: end at fence 958590
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x01e244a76daa55d92 (index=1121; def=277)
+		       ...
+		[   ]: BeginTask: #x01e244976daa55bdf (index=1122; def=276)
+		       ...
+		[   ]: BeginTask: #x01e244a76daa55d92 (index=1123; def=277)
+		       ...
+		[   ]: BeginTask: #x01e244976daa55bdf (index=1124; def=276)
+		       ...
+		[   ]: BeginTask: #x01e244a76daa55d92 (index=1125; def=277)
+		       ...
+		[   ]: BeginTask: #x01e244976daa55bdf (index=1126; def=276)
+		       ...
+		[   ]: BeginTask: #x012e0812045bff206 (index=1127; def=278)
+		       ...
+		[   ]: BeginTask: #x06860502a7860afd4 (index=1128; def=288)
+		       ...
+		[   ]: BeginTask: #x0db25e4b54aa91658 (index=1129; def=299)
+		       ...
+		[   ]: BeginTask: #x05d5a35f1914be63e (index=1130; def=302)
+		       ...
+		[   ]: BeginTask: #x0bc7c7ab375fbff86 (index=1131; def=300)
+		       ...
+		[   ]: BeginTask: #x0ca2eea7fe60c0106 (index=1132; def=301)
+		       ...
+		[   ]: BeginTask: #x0cee94bf2c5a5b088 (index=1133; def=298)
+		       ...
+		[   ]: BeginTask: #x057bb32458976185c (index=1134; def=96)
+		       ...
+		[   ]: BeginTask: #x02d0ba6892a6680a (index=1135; def=99)
+		[   ]: ExecuteIndirect: #x4726f7006ab5a4e1b (count: 1)
+		       ...
+		[   ]: BeginTask: #x0a96b72cffb6ad909 (index=1136; def=97)
+		       ...
+		[   ]: BeginTask: #x0dfc4ce1dd391eab0 (index=1137; def=98)
+		[   ]: ExecuteIndirect: #x42540a973bfd49dcf (count: 1)
+	Fence [0000023803c08380]:
+		[   ]: Signal: 958590 on '#x0ed261b159d41113a' (last known value = 958584)
+	Fence [000002380246a140]:
+		[   ]: Signal: 2275 on '#x05d0737f3bc514e01' (last known value = 2273)
+	Command List #x0f32f6a0977bdfbe3 [0000023820434370]: end at fence 958591
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x0b60238c0cf37f2e5 (index=1138; def=215)
+		[   ]: ExecuteIndirect: #x4224bd3e1e460d412 [m: #x4222d36eb26d3dce2 t: #x44911e449c5ee82c5] (count: 6)
+		[   ]: ExecuteIndirect: #x43f3b494fa8d833fa [m: #x4295faad3e3c5b204 t: #x4176dd782b7594d00] (count: 2)
+		[   ]: ExecuteIndirect: #x422962caae4d8b152 [m: #x451de1e2bf55d405d t: #x42b87568ccad48c6b] (count: 1)
+		[   ]: ExecuteIndirect: #x4544b7e84905686b8 [m: #x426e680d85a8a1a0b t: #x460610a9db5f090a4] (count: 1)
+		[   ]: ExecuteIndirect: #x465f0bc0b7ed231db [m: #x429564085ece5611b t: #x436d2da065f922660] (count: 1)
+		[   ]: ExecuteIndirect: #x4454f58e09834285 [m: #x4628ba537cd68bc76 t: #x41c3621cf116e014] (count: 1)
+		[   ]: ExecuteIndirect: #x43b43a736b1eb70cb [m: #x439129b8a1958d4a0 t: #x45246de634d20b99f] (count: 2)
+		       ...
+		[   ]: BeginTask: #x0c8f6361e5e7f8180 (index=1139; def=476)
+		       ...
+		[   ]: BeginTask: #x029532d665ee17d1d (index=1140; def=467)
+		       ...
+		[   ]: BeginTask: #x03ebd7c8d3d0a0a9b (index=1141; def=477)
+		       ...
+		[   ]: BeginTask: #x0678382cd8e137834 (index=1142; def=464)
+		       ...
+		[   ]: BeginTask: #x097be1af2a5eb2903 (index=1143; def=483)
+		       ...
+		[   ]: BeginTask: #x0b573165fa6c6093c (index=1144; def=479)
+		[   ]: ExecuteIndirect: #x46a97e41f3c157299 (count: 1)
+		[   ]: ExecuteIndirect: #x453e341e748f41955 (count: 1)
+		[   ]: ExecuteIndirect: #x47439c02908c55b80 (count: 1)
+		[   ]: ExecuteIndirect: #x44f187cb4b7b58bea (count: 1)
+		[   ]: ExecuteIndirect: #x4731874f41a637190 (count: 1)
+		[   ]: ExecuteIndirect: #x41fa709f55429849a (count: 1)
+		[   ]: ExecuteIndirect: #x457e79b2337f5a535 (count: 1)
+		       ...
+		[   ]: BeginTask: #x07c1261fe52f0727c (index=1145; def=481)
+		       ...
+		[   ]: BeginTask: #x0d8683d2893ce7912 (index=1146; def=393)
+		       ...
+		[   ]: BeginTask: #x0aea0756cf4a55fb8 (index=1147; def=219)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1148; def=332)
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1149; def=332)
+		[   ]: Dispatch: #x42c6343969cf9dc70 (count: 1)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1150; def=341)
+		[   ]: Dispatch: #x47689ba619780a497 (count: 1)
+	Command List #x0f32f6a0977bdfbe3 [0000023820438790]: end at fence 958591
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1151; def=341)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1152; def=332)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1153; def=341)
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1154; def=341)
+		[   ]: Dispatch: #x47689ba619780a497 (count: 1)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1155; def=332)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1156; def=341)
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1157; def=341)
+		[   ]: Dispatch: #x47689ba619780a497 (count: 1)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1158; def=332)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1159; def=341)
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1160; def=341)
+		[   ]: Dispatch: #x45e6860df3e97bbb7 (count: 1)
+		       ...
+		[   ]: BeginTask: #x0aea0756cf4a55fb8 (index=1161; def=219)
+		       ...
+		[   ]: BeginTask: #x0344ada9721feac54 (index=1162; def=615)
+		       ...
+		[   ]: BeginTask: #x035d837ae58740a89 (index=1163; def=617)
+		       ...
+		[   ]: BeginTask: #x076034ed5ad1d82bb (index=1164; def=613)
+		       ...
+		[   ]: BeginTask: #x01dd6d7a33553d9de (index=1165; def=618)
+		       ...
+		[   ]: BeginTask: #x08595958211a40aab (index=1166; def=619)
+		       ...
+		[   ]: BeginTask: #x0dbbbd98c197b6dfc (index=1167; def=620)
+		       ...
+		[   ]: BeginTask: #x0ee5d11f92dd7aec1 (index=1168; def=631)
+		       ...
+		[   ]: BeginTask: #x0ea430d18179d1ca4 (index=1169; def=633)
+		       ...
+		[   ]: BeginTask: #x02687a0ff64699887 (index=1170; def=500)
+		[   ]: ExecuteIndirect: #x434639524c31c2935 (count: 1)
+		[   ]: ExecuteIndirect: #x4517861c66ccba8be (count: 1)
+		[   ]: ExecuteIndirect: #x45a1780ef16168a7c (count: 1)
+		[   ]: ExecuteIndirect: #x41dbeff6301e50838 (count: 3)
+		[   ]: ExecuteIndirect: #x437df8b0a5a202dd7 (count: 1)
+		[   ]: ExecuteIndirect: #x48fdc19eb0f87204 (count: 1)
+		[   ]: ExecuteIndirect: #x450a9edde94811586 (count: 1)
+		[   ]: BeginTask: #x02687a0ff64699887 (index=1171; def=500)
+		[   ]: ExecuteIndirect: #x4ff32b692982390a (count: 3)
+		[   ]: ExecuteIndirect: #x4754d8790c181766e (count: 1)
+		[   ]: ExecuteIndirect: #x4754d8690c18174bb (count: 1)
+		[   ]: ExecuteIndirect: #x4754d8c90c1817eed (count: 1)
+		[   ]: ExecuteIndirect: #x4754d8090c1816a89 (count: 3)
+		[   ]: ExecuteIndirect: #x433eb82ff7e11a17a (count: 1)
+		[   ]: ExecuteIndirect: #x433eb81ff7e119fc7 (count: 1)
+		[   ]: ExecuteIndirect: #x433eb7fff7e119c61 (count: 1)
+		[   ]: BeginTask: #x02687a0ff64699887 (index=1172; def=500)
+		[   ]: ExecuteIndirect: #x433eb7bff7e119595 (count: 3)
+		[   ]: ExecuteIndirect: #x475efa7a82ac4f58b (count: 2)
+		[   ]: ExecuteIndirect: #x475efa8a82ac4f73e (count: 1)
+		[   ]: ExecuteIndirect: #x456f59293fb8e84c7 (count: 2)
+		[   ]: BeginTask: #x02687a0ff64699887 (index=1173; def=500)
+		[   ]: ExecuteIndirect: #x456f59393fb8e867a (count: 1)
+		[   ]: ExecuteIndirect: #x46dc76ea8264ae1f0 (count: 2)
+		[   ]: ExecuteIndirect: #x46dc771a8264ae709 (count: 1)
+		[   ]: ExecuteIndirect: #x44ecd5993f714712c (count: 2)
+		[   ]: BeginTask: #x02687a0ff64699887 (index=1174; def=500)
+		[   ]: ExecuteIndirect: #x44ecd5c93f7147645 (count: 1)
+		[   ]: ExecuteIndirect: #x475efa7a82ac4f58b (count: 2)
+		[   ]: ExecuteIndirect: #x475efa8a82ac4f73e (count: 1)
+		[   ]: ExecuteIndirect: #x456f59293fb8e84c7 (count: 2)
+		[   ]: BeginTask: #x02687a0ff64699887 (index=1175; def=500)
+		[   ]: ExecuteIndirect: #x456f59393fb8e867a (count: 1)
+		[   ]: ExecuteIndirect: #x46dc76ea8264ae1f0 (count: 2)
+		[   ]: ExecuteIndirect: #x46dc771a8264ae709 (count: 1)
+		[   ]: ExecuteIndirect: #x44ecd5993f714712c (count: 2)
+		[   ]: BeginTask: #x02687a0ff64699887 (index=1176; def=500)
+		[   ]: ExecuteIndirect: #x44ecd5c93f7147645 (count: 1)
+		[   ]: ExecuteIndirect: #x475efa7a82ac4f58b (count: 2)
+		[   ]: ExecuteIndirect: #x475efa8a82ac4f73e (count: 1)
+		[   ]: ExecuteIndirect: #x456f59293fb8e84c7 (count: 2)
+		[   ]: BeginTask: #x02687a0ff64699887 (index=1177; def=500)
+		[   ]: ExecuteIndirect: #x456f59393fb8e867a (count: 1)
+		[   ]: ExecuteIndirect: #x46dc76ea8264ae1f0 (count: 2)
+		[   ]: ExecuteIndirect: #x46dc771a8264ae709 (count: 1)
+		[   ]: ExecuteIndirect: #x44ecd5993f714712c (count: 2)
+		       ...
+		[   ]: BeginTask: #x074e304c99989287e (index=1178; def=637)
+		       ...
+		[   ]: End Commandlist 
+	Command List #x0f32f6a0977bdfbe3 [00000238204380c0]: end at fence 958591
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x0cb4bd620133e525b (index=1179; def=246)
+		[   ]: DrawPrimitiveInstance: #x46dd9e501b99ba0e6 [m: #x47f642ede4ca4324e t: #x41b3f1828452263a9] (count: 1)
+		       ...
+		[   ]: BeginTask: #x0cb8eb2e6428d4100 (index=1180; def=250)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1181; def=332)
+		[   ]: Dispatch: #x42c6343969cf9dc70 (count: 1)
+	Command List #x0f32f6a0977bdfbe3 [0000023820435110]: end at fence 958591
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1182; def=332)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1183; def=341)
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1184; def=341)
+		[   ]: Dispatch: #x47689ba619780a497 (count: 1)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1185; def=332)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1186; def=341)
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1187; def=341)
+		[   ]: Dispatch: #x47689ba619780a497 (count: 1)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1188; def=332)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1189; def=341)
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1190; def=341)
+		[   ]: Dispatch: #x47689ba619780a497 (count: 1)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1191; def=332)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1192; def=341)
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1193; def=341)
+		[   ]: Dispatch: #x45e6860df3e97bbb7 (count: 1)
+		       ...
+		[   ]: BeginTask: #x0cb4bd620133e525b (index=1194; def=246)
+		[   ]: BeginTask: #x0cb4bd620133e525b (index=1195; def=246)
+		       ...
+		[   ]: BeginTask: #x07336d51f09c5cb75 (index=1196; def=11)
+		       ...
+		[   ]: BeginTask: #x0aea0756cf4a55fb8 (index=1197; def=219)
+		[   ]: BeginTask: #x0aea0756cf4a55fb8 (index=1198; def=219)
+		       ...
+		[   ]: BeginTask: #x0cb4bd620133e525b (index=1199; def=246)
+		[   ]: End Commandlist 
+	Command List #x0ed261b159d41113a [0000023801d140d0]: end at fence 958591
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x08a2a5b17c4d287de (index=1200; def=29)
+		       ...
+		[   ]: BeginTask: #x038ace7e4c9737935 (index=1201; def=536)
+		       ...
+		[   ]: BeginTask: #x0c82a13dfae683fd0 (index=1202; def=80)
+		       ...
+		[   ]: BeginTask: #x0c34540ed3e25a982 (index=1203; def=88)
+		       ...
+		[   ]: BeginTask: #x08d083e055730dfff (index=1204; def=538)
+		       ...
+		[   ]: BeginTask: #x02645e3b30d2040c4 (index=1205; def=539)
+		       ...
+		[   ]: BeginTask: #x0fe70756e2449f789 (index=1206; def=540)
+		       ...
+		[   ]: BeginTask: #x0d66a51d2222d130 (index=1207; def=496)
+		       ...
+		[   ]: BeginTask: #x0cf033249211b6873 (index=1208; def=495)
+		       ...
+		[   ]: BeginTask: #x03cd75e2a9ecf4a59 (index=1209; def=589)
+		[   ]: End Commandlist 
+	Command List #x0f32f6a0977bdfbe3 [000002382043be10]: end at fence 958591
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x0cb058e7fcd90fe0f (index=1210; def=325)
+		       ...
+		[   ]: BeginTask: #x09a84edfc24a166a3 (index=1211; def=334)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1212; def=332)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1213; def=341)
+		       ...
+		[   ]: BeginTask: #x031f9b24f0907c90c (index=1214; def=326)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1215; def=332)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1216; def=341)
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1217; def=341)
+		[   ]: Dispatch: #x473654bd9b09ed65f (count: 1)
+		       ...
+		[   ]: BeginTask: #x0f270db899b992d1c (index=1218; def=327)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1219; def=332)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1220; def=341)
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1221; def=341)
+		[   ]: Dispatch: #x473654bd9b09ed65f (count: 1)
+		       ...
+		[   ]: BeginTask: #x0f270db899b992d1c (index=1222; def=327)
+		       ...
+		[   ]: BeginTask: #x0db67b108b000bf5e (index=1223; def=341)
+		       ...
+		[   ]: BeginTask: #x057787502fb41b220 (index=1224; def=429)
+		[   ]: Dispatch: #x431d72de20777ab3f (count: 1)
+		[   ]: Dispatch: #x4b0f7ce2bee06827 (count: 1)
+		       ...
+		[   ]: BeginTask: #x0f270db899b992d1c (index=1225; def=327)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1226; def=332)
+		       ...
+		[   ]: BeginTask: #x0f270db899b992d1c (index=1227; def=327)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1228; def=332)
+		       ...
+		[   ]: BeginTask: #x0f270db899b992d1c (index=1229; def=327)
+		       ...
+		[   ]: BeginTask: #x05f3a50590b453174 (index=1230; def=332)
+		       ...
+		[   ]: BeginTask: #x06fc11c662e2b1941 (index=1231; def=328)
+		       ...
+		[   ]: BeginTask: #x05d0dcf0d67e28195 (index=1232; def=329)
+		       ...
+		[   ]: BeginTask: #x06fc11c662e2b1941 (index=1233; def=328)
+		       ...
+		[   ]: BeginTask: #x05d0dcf0d67e28195 (index=1234; def=329)
+		       ...
+		[   ]: BeginTask: #x06fc11c662e2b1941 (index=1235; def=328)
+		       ...
+		[   ]: BeginTask: #x05d0dcf0d67e28195 (index=1236; def=329)
+		       ...
+		[   ]: BeginTask: #x06fc11c662e2b1941 (index=1237; def=328)
+		[   ]: BeginTask: #x06fc11c662e2b1941 (index=1238; def=328)
+		[   ]: Dispatch: #x47709cdf68f8850c6 (count: 2)
+	Command List #x0ed261b159d41113a [0000023801d15540]: end at fence 958591
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x09a8f721cdce22cf7 (index=1239; def=430)
+		       ...
+		[   ]: BeginTask: #x0185d13a763899789 (index=1240; def=439)
+		       ...
+		[   ]: BeginTask: #x0db0cc42fb9dd7854 (index=1241; def=27)
+		       ...
+		[   ]: BeginTask: #x08151319e80a10839 (index=1242; def=435)
+		       ...
+		[   ]: BeginTask: #x0185d13a763899789 (index=1243; def=439)
+		       ...
+		[   ]: BeginTask: #x0f1bf171f98fea73a (index=1244; def=594)
+		       ...
+		[   ]: BeginTask: #x09c89e0870654f157 (index=1245; def=220)
+		[   ]: End Commandlist 
+	Command List #x0ed261b159d41113a [0000023801d15c10]: end at fence 958591
+		[   ]: Begin Commandlist 
+		[   ]: BeginTask: #x0924383d470701f4e (index=1246; def=62)
+		[   ]: End Commandlist 
+	Fence [0000023803c08380]:
+		[   ]: Signal: 958591 on '#x0ed261b159d41113a' (last known value = 958584)
+	Command List #x0ed261b159d41113a [0000023812e7ff80]: end at fence 958592
+		[   ]: Begin Commandlist 
+		       ...
+		[   ]: BeginTask: #x0a066c2a068c2bc75 (index=1247; def=26)
+		       ...
+		[   ]: BeginTask: #x0bf039df9082149af (index=1248; def=58)
+		       ...
+		[   ]: BeginTask: #x0185d13a763899789 (index=1249; def=439)
+		       ...
+		[   ]: BeginTask: #x05fcd56a0d5685d76 (index=1250; def=28)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 3)
+		[   ]: DrawPrimitiveInstance: #x47819fb7458ba24ff [m: #x41ac9be14b5be927f t: #x41ea317aa446ed228] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 28)
+		[   ]: DrawPrimitiveInstance: #x45f6779c9e77d94cc [m: #x43b5e3aeecb53cdc t: #x44673d1e94bf0da30] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 28)
+		[   ]: DrawPrimitiveInstance: #x45f6779c9e77d94cc [m: #x43b5e3aeecb53cdc t: #x44673d1e94bf0da30] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 28)
+		[   ]: DrawPrimitiveInstance: #x45f6779c9e77d94cc [m: #x43b5e3aeecb53cdc t: #x44673d1e94bf0da30] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x412e4027155fcccd5 [m: #x45e1915c7844b2ef2 t: #x4ac857673f4f5fb5] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 4)
+		[   ]: DrawPrimitiveInstance: #x45f6779c9e77d94cc [m: #x43b5e3aeecb53cdc t: #x44673d1e94bf0da30] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x419861a1710a43656 [m: #x4793d949005672cc8 t: #x4760c71c6dec95ec5] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 10)
+		[   ]: DrawPrimitiveInstance: #x45f6779c9e77d94cc [m: #x43b5e3aeecb53cdc t: #x44673d1e94bf0da30] (count: 9)
+		[   ]: DrawPrimitiveInstance: #x453efb42ef1d7d402 [m: #x47ea42b0c15d1dd9f t: #x42af03d835b83d6bb] (count: 9)
+		[   ]: DrawPrimitiveInstance: #x45f6779c9e77d94cc [m: #x43b5e3aeecb53cdc t: #x44673d1e94bf0da30] (count: 9)
+		[   ]: DrawPrimitiveInstance: #x453efb42ef1d7d402 [m: #x47ea42b0c15d1dd9f t: #x42af03d835b83d6bb] (count: 9)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x453efb42ef1d7d402 [m: #x47ea42b0c15d1dd9f t: #x42af03d835b83d6bb] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 7)
+		[   ]: DrawPrimitiveInstance: #x453efb42ef1d7d402 [m: #x47ea42b0c15d1dd9f t: #x42af03d835b83d6bb] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 46)
+		[   ]: DrawPrimitiveInstance: #x419861a1710a43656 [m: #x4793d949005672cc8 t: #x4760c71c6dec95ec5] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x45f6779c9e77d94cc [m: #x43b5e3aeecb53cdc t: #x44673d1e94bf0da30] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 3)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		[   ]: DrawPrimitiveInstance: #x42056b213c6497021 [m: #x47784d998b6c3e4c6 t: #x4517b35e164d2f988] (count: 2)
+		[   ]: DrawPrimitiveInstance: #x421459b12a4870028 [m: #x47d07eafefbfa4653 t: #x4d8b275bddf09ea8] (count: 1)
+		       ...
+		[   ]: BeginTask: #x03b4f27dc69137838 (index=1251; def=86)
+		       ...
+		[   ]: BeginTask: #x0ed73e1c7bba6290f (index=1252; def=87)
+		       ...
+		[   ]: BeginTask: #x0185d13a763899789 (index=1253; def=439)
+		       ...
+		[   ]: End Commandlist 
+Command Queue #x05b5d83f2cb9f8c26 [0000023812a8e2f0]: last known fence 195671
+	Fence [000002380246a140]:
+		[ >>]: Wait: 2273 on '#x05d0737f3bc514e01' (last known value = 2273)
+	Command List #x05b5d83f2cb9f8c26 [0000023812f6bba0]: end at fence 195671
+		[ \ ]: Begin Commandlist 
+		[ \ ]: Dispatch: #x42c27432fbf7929e4 (count: 1)
+		[ \ ]: Dispatch: #x46609ecfc78df10f (count: 1)
+	Fence [0000023803c06550]:
+		[ >>]: Signal: 195671 on '#x05b5d83f2cb9f8c26' (last known value = 195671)
+	Fence [000002380246a140]:
+		[<!>]: Wait: 2274 on '#x05d0737f3bc514e01' (last known value = 2273)
+	Command List #x05b5d83f2cb9f8c26 [0000023812f6d010]: end at fence 195672
+		[ - ]: Begin Commandlist 
+		[ ? ]: Dispatch: #x42c27432fbf7929e4 (count: 1)
+		[ ? ]: Dispatch: #x46609ecfc78df10f (count: 1)
+	Fence [0000023803c06550]:
+		[ ? ]: Signal: 195672 on '#x05b5d83f2cb9f8c26' (last known value = 195671)
+Command Queue #x0d67d1810e319873a [0000023812a8e530]: last known fence 0
+Command Queue #x0bf903911984eee4 [0000023812a8f730]: last known fence 26763
+Command Queue #x05225bd77a61f971c [0000023812a8fbb0]: last known fence 201153
+--- End Breadcrumbs Report ---
+*
+* Task Graph GPU Status:
+*    Frame Index: 0
+*    Permutation Cache Idx: 0
+*    Permutation Conditions: 0x00000000
+*    Script Index: 1
+*    Compile Settings: 0x00004000041d03b2
+*    Script Options:
+*     0x00be37cd 0xeba007e1 0xec800064 0xe0089d7f
+*     0x0cdf8e86 0x31c17852 0x80c7871f 0x00009c53
+*     0x82054b01 0x01004800 0xc4e20800 0x00000010
+*     0x1800000d 0x00000000 0x00000000 0x00000000
+* Frame completed successfully
+*
