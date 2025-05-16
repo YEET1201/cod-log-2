@@ -1,0 +1,145 @@
+2025/02/22 06:21:19 ===LOG START 2025-02-22 06:21:19.2754897 -0500 EST m=+0.003009701===
+2025/02/22 06:21:19 Checking if the driver is in the game folder
+2025/02/22 06:21:19 C:\WINDOWS\system32\sc.exe qc atvi-randgrid_msstore
+2025/02/22 06:21:19 [SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: atvi-randgrid_msstore
+        TYPE               : 1  KERNEL_DRIVER 
+        START_TYPE         : 3   DEMAND_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : \??\D:\Games\Call of Duty\Content\Randgrid.sys
+        LOAD_ORDER_GROUP   : 
+        TAG                : 0
+        DISPLAY_NAME       : atvi-randgrid_msstore
+        DEPENDENCIES       : 
+        SERVICE_START_NAME : 
+
+2025/02/22 06:21:19 Service atvi-randgrid_msstore already exists, checking service status...
+2025/02/22 06:21:19 C:\WINDOWS\system32\sc.exe query atvi-randgrid_msstore
+2025/02/22 06:21:19 
+SERVICE_NAME: atvi-randgrid_msstore 
+        TYPE               : 1  KERNEL_DRIVER  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+2025/02/22 06:21:19 Updating service atvi-randgrid_msstore to the driver D:\Games\Call of Duty_1\Content\Randgrid.sys
+2025/02/22 06:21:19 C:\WINDOWS\system32\sc.exe config atvi-randgrid_msstore binPath=D:\Games\Call of Duty_1\Content\Randgrid.sys
+2025/02/22 06:21:19 [SC] ChangeServiceConfig SUCCESS
+
+2025/02/22 06:21:19 Waiting for service to update...
+2025/02/22 06:21:20 C:\WINDOWS\system32\sc.exe qc atvi-randgrid_msstore
+2025/02/22 06:21:20 [SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: atvi-randgrid_msstore
+        TYPE               : 1  KERNEL_DRIVER 
+        START_TYPE         : 3   DEMAND_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : \??\D:\Games\Call of Duty_1\Content\Randgrid.sys
+        LOAD_ORDER_GROUP   : 
+        TAG                : 0
+        DISPLAY_NAME       : atvi-randgrid_msstore
+        DEPENDENCIES       : 
+        SERVICE_START_NAME : 
+
+2025/02/22 06:21:20 Service updated successfully.
+2025/02/22 06:21:20 Driver is ready.
+2025/02/22 06:21:20 ===LOG END===
+2025/05/11 22:57:15 ===LOG START 2025-05-11 22:57:15.6098101 -0700 PDT m=+0.012616901===
+2025/05/11 22:57:15 Checking if the driver is in the game folder
+2025/05/11 22:57:15 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Service -Name atvi-randgrid_msstore -ErrorAction SilentlyContinue
+2025/05/11 22:57:18 
+2025/05/11 22:57:18 Service atvi-randgrid_msstore does not exist, creating service.
+2025/05/11 22:57:18 Creating service atvi-randgrid_msstore ...
+2025/05/11 22:57:18 C:\Windows\system32\sc.exe create atvi-randgrid_msstore type=kernel binPath=D:\Games\Call of Duty_1\Content\Randgrid.sys
+2025/05/11 22:57:18 [SC] CreateService SUCCESS
+
+2025/05/11 22:57:18 Waiting for service to be created...
+2025/05/11 22:57:19 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Service -Name atvi-randgrid_msstore -ErrorAction SilentlyContinue
+2025/05/11 22:57:20 
+Status   Name               DisplayName                           
+------   ----               -----------                           
+Stopped  atvi-randgrid_m... atvi-randgrid_msstore                 
+
+
+
+2025/05/11 22:57:20 Service created successfully.
+2025/05/11 22:57:20 Setting service descriptor atvi-randgrid_msstore ...
+2025/05/11 22:57:20 [SC] SetServiceObjectSecurity SUCCESS
+
+2025/05/11 22:57:20 Driver is ready.
+2025/05/11 22:57:20 ===LOG END===
+2025/05/14 05:23:54 ===LOG START 2025-05-14 05:23:54.7559643 -0400 EDT m=+0.012301001===
+2025/05/14 05:23:54 Checking if the driver is in the game folder
+2025/05/14 05:23:54 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Service -Name atvi-randgrid_msstore -ErrorAction SilentlyContinue
+2025/05/14 05:23:55 
+2025/05/14 05:23:55 Service atvi-randgrid_msstore does not exist, creating service.
+2025/05/14 05:23:55 Creating service atvi-randgrid_msstore ...
+2025/05/14 05:23:55 C:\Windows\system32\sc.exe create atvi-randgrid_msstore type=kernel binPath=D:\Games\Call of Duty_1\Content\Randgrid.sys
+2025/05/14 05:23:55 [SC] CreateService SUCCESS
+
+2025/05/14 05:23:55 Waiting for service to be created...
+2025/05/14 05:23:56 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Service -Name atvi-randgrid_msstore -ErrorAction SilentlyContinue
+2025/05/14 05:23:57 
+Status   Name               DisplayName                           
+------   ----               -----------                           
+Stopped  atvi-randgrid_m... atvi-randgrid_msstore                 
+
+
+
+2025/05/14 05:23:57 Service created successfully.
+2025/05/14 05:23:57 Setting service descriptor atvi-randgrid_msstore ...
+2025/05/14 05:23:57 [SC] SetServiceObjectSecurity SUCCESS
+
+2025/05/14 05:23:57 Driver is ready.
+2025/05/14 05:23:57 ===LOG END===
+2025/05/14 11:51:31 ===LOG START 2025-05-14 11:51:31.098542 -0500 EST m=+0.012793501===
+2025/05/14 11:51:31 Checking if the driver is in the game folder
+2025/05/14 11:51:31 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Service -Name atvi-randgrid_msstore -ErrorAction SilentlyContinue
+2025/05/14 11:51:32 
+2025/05/14 11:51:32 Service atvi-randgrid_msstore does not exist, creating service.
+2025/05/14 11:51:32 Creating service atvi-randgrid_msstore ...
+2025/05/14 11:51:32 C:\Windows\system32\sc.exe create atvi-randgrid_msstore type=kernel binPath=D:\Games\Call of Duty_1\Content\Randgrid.sys
+2025/05/14 11:51:32 [SC] CreateService SUCCESS
+
+2025/05/14 11:51:32 Waiting for service to be created...
+2025/05/14 11:51:33 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Service -Name atvi-randgrid_msstore -ErrorAction SilentlyContinue
+2025/05/14 11:51:34 
+Status   Name               DisplayName                           
+------   ----               -----------                           
+Stopped  atvi-randgrid_m... atvi-randgrid_msstore                 
+
+
+
+2025/05/14 11:51:34 Service created successfully.
+2025/05/14 11:51:34 Setting service descriptor atvi-randgrid_msstore ...
+2025/05/14 11:51:34 [SC] SetServiceObjectSecurity SUCCESS
+
+2025/05/14 11:51:34 Driver is ready.
+2025/05/14 11:51:34 ===LOG END===
+2025/05/14 14:58:17 ===LOG START 2025-05-14 14:58:17.7141705 -0700 PDT m=+0.012573201===
+2025/05/14 14:58:17 Checking if the driver is in the game folder
+2025/05/14 14:58:17 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Service -Name atvi-randgrid_msstore -ErrorAction SilentlyContinue
+2025/05/14 14:58:18 
+2025/05/14 14:58:18 Service atvi-randgrid_msstore does not exist, creating service.
+2025/05/14 14:58:18 Creating service atvi-randgrid_msstore ...
+2025/05/14 14:58:18 C:\Windows\system32\sc.exe create atvi-randgrid_msstore type=kernel binPath=D:\Games\Call of Duty_1\Content\Randgrid.sys
+2025/05/14 14:58:18 [SC] CreateService SUCCESS
+
+2025/05/14 14:58:18 Waiting for service to be created...
+2025/05/14 14:58:19 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Service -Name atvi-randgrid_msstore -ErrorAction SilentlyContinue
+2025/05/14 14:58:20 
+Status   Name               DisplayName                           
+------   ----               -----------                           
+Stopped  atvi-randgrid_m... atvi-randgrid_msstore                 
+
+
+
+2025/05/14 14:58:20 Service created successfully.
+2025/05/14 14:58:20 Setting service descriptor atvi-randgrid_msstore ...
+2025/05/14 14:58:20 [SC] SetServiceObjectSecurity SUCCESS
+
+2025/05/14 14:58:20 Driver is ready.
+2025/05/14 14:58:20 ===LOG END===
